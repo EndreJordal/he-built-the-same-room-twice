@@ -5,3 +5,4 @@ Vampire_The_Masquerade_Revised_Edition.md
 # Local tooling
 .claude/
 __pycache__/
+conversation-transcript.md
