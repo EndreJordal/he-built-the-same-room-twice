@@ -1,0 +1,80 @@
+{
+ "v": 1,
+ "name": "The Marble Cemetery — Fresh Graves",
+ "notes": [
+  "# The Marble Cemetery — Fresh Graves",
+  "*Chapter One random encounter — a cemetery, vacant lot or park at night. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The New York Marble Cemetery, a walled garden of underground vaults in the East Village. Iron gate, high brick walls, marble tablets in the lawn. Tonight the lawn has been dug up in six places, and the earth is moving.",
+  "- **The walls** are ten feet high: nobody outside sees anything. Getting over them is Dexterity + Athletics (difficulty 6).",
+  "- **Open graves.** Anyone knocked down near one falls in (a turn to climb out).",
+  "",
+  "## The situation",
+  "The Sabbat is testing the city. Someone mass-Embraced a handful of drifters three nights ago and buried them here, Sabbat-fashion, to claw their way out starving. The coterie arrives as they surface. Whoever did this is long gone.",
+  "- **Starving.** Each shovelhead, each turn, attacks whoever is nearest — unless someone is down and bleeding within reach, in which case it stops to feed on them instead (no attack; the victim loses 1 blood or 1 health level a turn).",
+  "",
+  "## Who's who",
+  "- **Four shovelheads** out of the ground when the coterie arrives — nameless once, and given names here only so you can tell them apart.",
+  "- **Two more** start **inactive**, still digging.",
+  "",
+  "## Special rules",
+  "- **The diggers** surface at the start of turns 2 and 3 (one each).",
+  "- **Fire** sends them into Rötschreck instantly: any shovelhead facing a flame flees over the wall.",
+  "- **Mercy.** A shovelhead that is pinned and fed (a vampire lets it drink a blood point from them) stops struggling and can be questioned — badly. It remembers a man with a priest's collar and a thick Brooklyn accent, and a pack name: *Gravediggers*.",
+  "",
+  "## How it ends",
+  "- Six new vampires loose in Manhattan is a Masquerade disaster. Bringing even one to the Court counts for a lot — while there is still a Court to bring it to.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Digger Six**.",
+  "- **4 players:** also delete **Digger Five**.",
+  "- **3 players:** also delete **Mud**."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "shovelhead",
+   "name": "Mud",
+   "weapons": [],
+   "notes": "Fresh shovelhead, starving. Attacks the nearest target, or feeds on anyone down within reach instead. Flees from fire."
+  },
+  {
+   "preset": "shovelhead",
+   "name": "Gravel",
+   "weapons": [
+    "club"
+   ],
+   "notes": "As Mud. Found a broken headstone to swing."
+  },
+  {
+   "preset": "shovelhead",
+   "name": "Tooth",
+   "weapons": [],
+   "notes": "As Mud."
+  },
+  {
+   "preset": "shovelhead",
+   "name": "Collar",
+   "weapons": [
+    "knife"
+   ],
+   "notes": "As Mud. Still wearing a hospital ID bracelet."
+  },
+  {
+   "preset": "shovelhead",
+   "name": "Digger Five",
+   "weapons": [],
+   "inactive": true,
+   "notes": "Starts INACTIVE: surfaces at the start of turn 2. As Mud."
+  },
+  {
+   "preset": "shovelhead",
+   "name": "Digger Six",
+   "weapons": [],
+   "inactive": true,
+   "notes": "Starts INACTIVE: surfaces at the start of turn 3. As Mud."
+  }
+ ]
+}

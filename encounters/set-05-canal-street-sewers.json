@@ -1,0 +1,151 @@
+{
+ "v": 1,
+ "name": "Beneath Canal Street — Hob's Water",
+ "notes": [
+  "# Beneath Canal Street — Hob's Water",
+  "*Chapter One, §2.4 location 14. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The brick drainage tunnels under Canal Street, built over the old Collect Pond. Knee-deep black water, arched ceilings low enough to touch, side passages every few yards, and the walls humming exactly as Mister Tuesday said. No light except what the coterie brings.",
+  "- **The water** costs a die from every Dexterity pool (Dodge, Brawl, Melee, Firearms) and halves movement. Nobody can light anything that isn't held above it.",
+  "- **Darkness.** Without a light source: blind fighting, +2 difficulty. Hob and the rats don't need light.",
+  "- **The storm.** A summer thunderstorm is breaking over Manhattan. From **turn 4** the water rises: another −1 die each turn (to −3). At **turn 7** the tunnel floods to the ceiling — swim out or be swept toward the river.",
+  "",
+  "## The situation",
+  "The coterie goes looking for Sexton, Pretty Nicky's broodmate, who has gone to ground down here. Hob, his enormous mute ghoul, has decided that anyone coming down the Canal Street hatch is a Wakener or a Gravedigger. He does not ask.",
+  "- **Sexton is listening** from a side passage. He is terrified, not hostile. He can call Hob off.",
+  "",
+  "## Who's who",
+  "- **Hob** — Sexton's ghoul guard, an ex-sandhog. Mute, huge, patient. Knows every trap because he set them.",
+  "- **Two rat swarms** — Sexton's warren-rats, Nosferatu-fed. Hob's tripwire: they come first.",
+  "- **Big Al** — the sewer alligator. Every New Yorker has heard the story; Sexton has been feeding this one vitae for eleven years. Starts **inactive**.",
+  "",
+  "## Special rules",
+  "- **Calling off Hob.** Anyone who shouts into the dark that they come from Pretty Nicky, or offers a copy of the tape or news from above, rolls Charisma + Empathy (difficulty 6; 5 if Nicky is with them). On success Sexton whistles from the side passage, and Hob and the rats stop. Big Al does not listen to anyone.",
+  "- **Traps.** Each turn someone moves more than a few yards, they roll Perception + Alertness (difficulty 7) or hit one: a deadfall of bricks (4 dice bashing), a tripwire bell (Hob knows exactly where they are: +1 die to his next attack), or a hidden drop into the old pond (knocked down, under water for a turn).",
+  "- **Swarms** follow the Revised swarm rules (on their weapon): pistols, knives and fists remove only **one** health level per hit; shotguns, large weapons and fire do full damage. A swarm is dispersed when its boxes are full.",
+  "- **Big Al wakes** at the start of the turn after anyone bleeds into the water (any lethal or aggravated damage). He goes for whoever is lowest in the water — knocked down or overrun first.",
+  "",
+  "## How it ends",
+  "- Called off, Hob leads them to Sexton, who trades **where** (the stretch of line near City Hall) for the tape or news from above.",
+  "- If Hob is destroyed, Sexton flees deeper and the coterie has to find his hand-drawn map in his empty nest — after the water rises.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Rat Swarm 2**.",
+  "- **4 players:** also delete **Big Al**.",
+  "- **3 players:** also delete **Rat Swarm 1**, and the storm starts at turn 6 instead of turn 4."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_sandhog_pick",
+   "name": "Sandhog's Pick",
+   "short": "Pick",
+   "kind": "melee",
+   "base": "str",
+   "mod": 3,
+   "type": "L",
+   "conceal": "N",
+   "diffMod": 1,
+   "quirk": "two-handed · diff +1",
+   "notes": "A tunnel-digger's pick, worn bright. Heavy: +1 difficulty."
+  },
+  {
+   "id": "w_rat_swarm",
+   "name": "Rat Swarm",
+   "short": "Swarm",
+   "kind": "brawl",
+   "base": "fixed",
+   "mod": 3,
+   "type": "L",
+   "quirk": "swarm · dodge or be slowed",
+   "notes": "Revised swarm rules: roll the swarm's 3 lethal dice once per turn against each target in it (treat the attack as an automatic hit); the target may dodge. More than three levels after soak in one turn: knocked down and overrun."
+  }
+ ],
+ "combatants": [
+  {
+   "custom": {
+    "name": "Hob",
+    "kind": "ghoul",
+    "humanity": "5",
+    "armor": 1,
+    "attrs": [
+     5,
+     2,
+     4,
+     1,
+     1,
+     1,
+     3,
+     2,
+     3
+    ],
+    "abil": "Alertness 3, Brawl 3, Melee 3, Stealth 3, Crafts (Tunnelling) 3, Security 4, Survival 2",
+    "disc": "Potence 2, Fortitude 1",
+    "wp": 6,
+    "bp": 5,
+    "weapons": [
+     "w_sandhog_pick"
+    ],
+    "notes": "Sexton's ghoul, an ex-sandhog, mute. Waders and a hard hat (armor 1). Sees in the dark. Stops instantly if Sexton whistles (see the combat notes). Never leaves the water."
+   }
+  },
+  {
+   "custom": {
+    "name": "Rat Swarm 1",
+    "kind": "animal",
+    "health": "OK,OK,OK,OK,OK,OK,OK",
+    "attrs": [
+     1,
+     3,
+     2,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1
+    ],
+    "abil": "Brawl 3, Dodge 2",
+    "wp": 2,
+    "weapons": [
+     "w_rat_swarm"
+    ],
+    "notes": "Revised swarm: 3 lethal dice per turn against each target in it (treat the attack as an automatic hit; the target may dodge). Pistols, knives and fists remove only one box per hit; shotguns, large weapons and fire do full damage. Dispersed when its 7 boxes are full. Sexton's whistle stops it."
+   }
+  },
+  {
+   "custom": {
+    "name": "Rat Swarm 2",
+    "kind": "animal",
+    "health": "OK,OK,OK,OK,OK,OK,OK",
+    "attrs": [
+     1,
+     3,
+     2,
+     1,
+     1,
+     1,
+     3,
+     1,
+     1
+    ],
+    "abil": "Brawl 3, Dodge 2",
+    "wp": 2,
+    "weapons": [
+     "w_rat_swarm"
+    ],
+    "notes": "As Rat Swarm 1."
+   }
+  },
+  {
+   "preset": "alligator",
+   "name": "Big Al",
+   "disc": "Potence 1",
+   "bp": 10,
+   "inactive": true,
+   "notes": "Starts INACTIVE: wakes at the start of the turn after anyone bleeds into the water. A sewer alligator, eleven years on Sexton's vitae (ghoul: Potence 1). Goes for whoever is lowest in the water. Listens to no one."
+  }
+ ]
+}

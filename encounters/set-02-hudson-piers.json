@@ -1,0 +1,159 @@
+{
+ "v": 1,
+ "name": "The Hudson Piers — Marisol's Cut",
+ "notes": [
+  "# The Hudson Piers — Marisol's Cut",
+  "*Chapter One, §2.4 location 9. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "A rotting pier off the Meatpacking District at four in the morning. Gaps in the planking over black water, a collapsed shed, stacked pallets, the West Side Highway roaring behind a chain-link fence. Marisol's people rent boats from the end of it, cash, no questions.",
+  "- **The planking.** Anyone knocked down near a gap rolls Dexterity + Athletics (difficulty 6) or goes into the Hudson: two turns to climb out, and a strong current.",
+  "- **Pallets and the shed** give cover (+1 difficulty to ranged attacks).",
+  "- **Dawn is coming.** The meat trucks start arriving at **turn 6**: twenty mortal workers and their headlights. After that, everything anyone does is seen.",
+  "",
+  "## The situation",
+  "With Cold Storage closed, the coterie came to the piers to feed — and fed without paying Marisol's cut. Her crew boxes them in on the pier. She would rather be paid than fight, and she would rather fight than look weak in a summer when the Court cannot protect anyone.",
+  "- **Talking first.** Marisol opens with a price: double the usual cut, every week, for the rest of the summer. Paying ends it. So does winning her respect.",
+  "- **The duel.** Marisol offers it herself if the talk goes badly: one of the coterie against her, bare-handed or claws, first to take three health levels loses. Her crew stands back and honours the result. Refusing the duel starts the fight.",
+  "",
+  "## Who's who",
+  "- **Marisol** — Gangrel, pier boss. Grows Feral Claws (1 blood, one turn) and fights like a dockside animal. Calls her dogs with Animalism on turn 2.",
+  "- **Teo, Big Nunzio and Rafferty** — her ghoul dockhands, with cargo hooks. Extras: they go down fast, and they try to hook people off the pier.",
+  "- **Two harbour dogs** — strays she feeds. Start **inactive**; bring them in at the start of turn 2 (her Animalism call).",
+  "- **Detective Frank Russo** — NYPD Homicide, working the Cold Storage case and tailing the coterie. Starts **inactive**. See below.",
+  "",
+  "## Special rules",
+  "- **Russo joins at the first gunshot, or at the start of turn 4.** He is a mortal with a revolver and a radio. He shoots at whoever looks like the attacker; with Marisol's ghouls swinging hooks, that is usually them — but he is now a witness to everything. If he sees claws, feeding, or someone taking a bullet and getting up, it is a Masquerade breach the coterie inherits. He calls for backup on the turn he arrives; two patrol cars come at turn 8.",
+  "- **Marisol's pride.** She never fights to the death: at half health she backs off, names a smaller price, and calls it even.",
+  "",
+  "## How it ends",
+  "- Paid, dueled or beaten, Marisol becomes the coterie's boat when they need one to reach North Brother Island — at a price that depends on how this went.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Rafferty**.",
+  "- **4 players:** also delete both harbour dogs, **Jib** and **Salty**.",
+  "- **3 players:** also delete **Big Nunzio**. Marisol accepts a single payment instead of a weekly cut."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_cargo_hook",
+   "name": "Cargo Hook",
+   "short": "Hook",
+   "kind": "melee",
+   "base": "str",
+   "mod": 1,
+   "type": "L",
+   "conceal": "J",
+   "quirk": "hooks · +1 die to Hold",
+   "notes": "A longshoreman's hand hook. Lethal. Whoever is hooked can be dragged: +1 die to a Hold or to pull the target off the pier edge."
+  }
+ ],
+ "combatants": [
+  {
+   "custom": {
+    "name": "Marisol",
+    "kind": "vampire",
+    "gen": "10th",
+    "humanity": "5",
+    "attrs": [
+     3,
+     4,
+     3,
+     3,
+     3,
+     2,
+     4,
+     2,
+     4
+    ],
+    "abil": "Alertness 3, Athletics 3, Brawl 4, Dodge 3, Intimidation 3, Stealth 3, Streetwise 4, Survival 2",
+    "disc": "Animalism 2, Fortitude 2, Protean 2",
+    "wp": 6,
+    "bp": 13,
+    "weapons": [
+     "feral_claws",
+     "knife"
+    ],
+    "notes": "Gangrel, boss of the West Side piers. FERAL CLAWS (Protean 2): 1 blood, one turn to grow; Str+1 aggravated. ANIMALISM: calls the harbour dogs on turn 2. Offers a duel before a brawl. Backs off at half health and names a smaller price. Rents boats — the coterie's way to North Brother Island."
+   }
+  },
+  {
+   "preset": "thug",
+   "name": "Teo",
+   "kind": "ghoul",
+   "disc": "Potence 1",
+   "bp": 2,
+   "weapons": [
+    "w_cargo_hook",
+    "pistol_lt"
+   ],
+   "notes": "Marisol's ghoul dockhand (an Extra: three health levels). Tries to hook someone and drag them off the pier."
+  },
+  {
+   "preset": "thug",
+   "name": "Big Nunzio",
+   "kind": "ghoul",
+   "disc": "Potence 1",
+   "bp": 2,
+   "attrs": {
+    "str": 4
+   },
+   "weapons": [
+    "w_cargo_hook",
+    "club"
+   ],
+   "notes": "Marisol's biggest dockhand (an Extra). Swings a length of mooring pipe."
+  },
+  {
+   "preset": "thug",
+   "name": "Rafferty",
+   "kind": "ghoul",
+   "disc": "Potence 1",
+   "bp": 2,
+   "weapons": [
+    "w_cargo_hook",
+    "revolver_lt"
+   ],
+   "notes": "Marisol's ghoul dockhand (an Extra). Keeps to the shed and shoots."
+  },
+  {
+   "preset": "dog",
+   "name": "Harbour Dog Jib",
+   "inactive": true,
+   "notes": "Starts INACTIVE: bring in at the start of turn 2 when Marisol calls with Animalism. A stray she feeds; not ghouled."
+  },
+  {
+   "preset": "dog",
+   "name": "Harbour Dog Salty",
+   "inactive": true,
+   "notes": "Starts INACTIVE: bring in with Jib at the start of turn 2 when Marisol calls with Animalism. A stray she feeds; not ghouled."
+  },
+  {
+   "custom": {
+    "name": "Detective Frank Russo",
+    "kind": "mortal",
+    "humanity": "7",
+    "attrs": [
+     3,
+     3,
+     3,
+     2,
+     3,
+     2,
+     4,
+     3,
+     3
+    ],
+    "abil": "Alertness 3, Brawl 2, Dodge 2, Drive 3, Firearms 3, Investigation 4, Law 2, Streetwise 3",
+    "wp": 6,
+    "weapons": [
+     "revolver_lt"
+    ],
+    "notes": "Starts INACTIVE: joins at the first gunshot or the start of turn 4. NYPD Homicide, working the Cold Storage case and tailing the coterie. Shoots whoever looks like the attacker. Everything he sees is a Masquerade problem. Radios for backup on arrival: two patrol cars at turn 8."
+   },
+   "inactive": true
+  }
+ ]
+}

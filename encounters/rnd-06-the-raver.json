@@ -1,0 +1,96 @@
+{
+ "v": 1,
+ "name": "The Raver — Bodega at 4 A.M.",
+ "notes": [
+  "# The Raver — Bodega at 4 A.M.",
+  "*Chapter One random encounter — a bodega, diner or all-night shop. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "A 24-hour bodega on a corner in the Lower East Side: three narrow aisles, a deli counter, a cat asleep on the bread, bulletproof plexiglass around the register. The owner, Mr. Ayala, and two customers are inside.",
+  "- **Aisles** are narrow: two people fight side by side at most, and shelves come down on anyone knocked into them (knocked down, buried for a turn).",
+  "- **The plexiglass** booth protects Mr. Ayala, who is on the phone to 911 from turn 1.",
+  "",
+  "## The situation",
+  "One of the **ravers** (§1.4): an ancilla of the King's line whose Binding is presenting as violent public disintegration. He walked in for no reason, smashed the cooler, and is now tearing the shop apart, howling about a room made of black stone. The coterie is passing, or was sent by the Sheriff.",
+  "- **He is a case.** Taken alive and questioned once he comes back to himself, he is one more piece of the single-clan pattern (§1.4 — The Discovery): his clan, his dreams of the room, the copper taste. Destroyed, he is a mess for the Sheriff and nothing else.",
+  "- **Mortals.** Mr. Ayala, a nurse coming off shift and a teenager buying cigarettes are all in the shop. Every one of them is a witness, and the raver will go for whoever is bleeding.",
+  "",
+  "## Who's who",
+  "- **Julian Marchetti** — ancilla of the King's clan, in frenzy, eighty years a Kindred and forty minutes ago a respected member of the Court.",
+  "- **Mr. Grady** — his ghoul driver, waiting outside in the car. Starts **inactive**: comes in on turn 2 to protect his master from anyone hurting him.",
+  "- **Officers Pruitt and Lang** — start **inactive**: they arrive at the start of turn 5 if the fight is still going.",
+  "",
+  "## Special rules",
+  "- **In frenzy** Julian ignores wound penalties (toggle the frenzy status). He comes back to himself only when pinned for a full turn (a Hold), staked, or brought to Incapacitated.",
+  "- **Mr. Grady can be talked down** (Charisma + Empathy, difficulty 6: 'we're trying to save him'), and then helps hold his master.",
+  "- **The cops** see whatever is happening when they walk in. Plan for that.",
+  "",
+  "## How it ends",
+  "- Taken alive, Julian wakes ashamed, remembers the black-stone room, and tastes copper. He has stopped attending Elysium, and so have others he knows of — all of his clan.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** Julian starts with **2 bashing** (he went through the cooler door).",
+  "- **4 players:** also delete **Mr. Grady**.",
+  "- **3 players:** Julian's blood starts at **4** — he cannot keep using Celerity and Potence for long."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "custom": {
+    "name": "Julian Marchetti",
+    "kind": "vampire",
+    "gen": "9th",
+    "humanity": "6",
+    "attrs": [
+     4,
+     3,
+     4,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "abil": "Alertness 3, Athletics 2, Brawl 4, Dodge 3, Etiquette 3, Intimidation 3, Melee 2, Politics 2",
+    "disc": "Celerity 2, Fortitude 2, Potence 3",
+    "wp": 7,
+    "bp": {
+     "max": 14,
+     "cur": 10
+    },
+    "weapons": [],
+    "notes": "Ancilla of the King's clan, Bound and raving (§1.4). IN FRENZY: toggle the frenzy status. Comes back to himself only when held for a full turn, staked, or Incapacitated. Taken alive, he is a single-clan case. Goes for whoever is bleeding — mortals included. Disciplines: set at the clan's three once it is chosen if you like; these are generic."
+   }
+  },
+  {
+   "preset": "bodyguard",
+   "name": "Mr. Grady",
+   "inactive": true,
+   "notes": "Starts INACTIVE: comes in from the car on turn 2 to protect his master from anyone hurting him. Can be talked down (Charisma + Empathy, difficulty 6) and then helps hold Julian."
+  },
+  {
+   "preset": "gov_agent",
+   "name": "Officer Pruitt",
+   "kind": "mortal",
+   "weapons": [
+    "revolver_lt",
+    "club"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: arrives at the start of turn 5 if the fight is still going. NYPD. Sees everything."
+  },
+  {
+   "preset": "gov_agent",
+   "name": "Officer Lang",
+   "kind": "mortal",
+   "weapons": [
+    "shotgun",
+    "club"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: arrives with Pruitt at the start of turn 5 if the fight is still going. NYPD, with the car's shotgun. Sees everything."
+  }
+ ]
+}

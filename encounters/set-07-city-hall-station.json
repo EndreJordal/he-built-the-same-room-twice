@@ -1,0 +1,353 @@
+{
+ "v": 1,
+ "name": "City Hall Station — The Sermon",
+ "notes": [
+  "# City Hall Station — The Sermon",
+  "*Chapter One, §2.4 location 19. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "City Hall station, closed since 1945: Guastavino tile vaults, brass chandeliers, leaded skylights painted black, and hundreds of candles on every ledge. A choir of the discarded on the curved platform. The Prophet in an alcove at the far end, behind a lectern made from a ticket booth.",
+  "- **The 6 train** loops through to turn around. At the start of every **third** turn it passes: the station shakes, floods with light, and for that turn **nobody can hear the Chant** and ranged attacks are at +2 difficulty from the glare.",
+  "- **The third rail** runs along the curve. Anyone knocked or thrown off the platform rolls Dexterity + Athletics (difficulty 6) to avoid it: 8 dice of bashing, soaked normally (the Storyteller's number).",
+  "- **Candles.** Every knockdown near a ledge sets something alight (Storyteller's call). Torch-sized fire.",
+  "",
+  "## The situation",
+  "The chapter's finale. The coterie comes in on a sermon: the Prophet preaching in the old voice from the tape, the choir singing, Theo Castellano among them. The Gravediggers come in from the tunnels at almost the same moment. Three sides, one exit the Prophet already knows.",
+  "- **The Dread.** The choir is singing when the coterie arrives. Every Kindred in the station rolls for the Dread (§2.2 — V): Courage, difficulty 6 — the arriving Gravediggers too.",
+  "- **The Prophet is not a combatant.** He escapes into the tunnels at the end of turn 2 whatever happens; anyone who follows loses him at the first junction. Do not let him be caught: he is the Architect's window, and he is needed in Broken Arrow.",
+  "- **The papers.** In the Prophet's alcove, a bundle of old Court papers — the **domain grant for Broken Arrow, Greene County**. Candles on the lectern catch at the end of **turn 4** unless someone takes them first (one action in the alcove).",
+  "",
+  "## Who's who",
+  "- **Brother Calloway** — the choirmaster. Holds the coterie off with his own body while the Prophet leaves; while he stands with the choir, the Singers ignore wound penalties.",
+  "- **Four Singers** — the voice. They never stop.",
+  "- **Theo Castellano** — the clubgoer the players liked, Bound and serene. He sings, glad to see them, and does not fight unless someone attacks the choir. Destroying him should feel like what it is.",
+  "- **Rafe Delacroix** — the lieutenant who holds the Chant for Lower Manhattan.",
+  "- **Three Faithful** — between the coterie and the choir.",
+  "- **The Gravediggers** — Hollis, Sister Benedetta, Mister Bone and Jinx. Start **inactive**; they come out of the downtown tunnel at the start of turn 2. They attack the Wakeners first and the coterie second, unless there is a truce (Coney Island), in which case they fight beside the coterie until the Prophet is gone — and then decide.",
+  "- **Benedetta's tentacles** — three inactive Abyssal Tentacles, brought in when she casts Arms of the Abyss.",
+  "",
+  "## Special rules",
+  "- **Delete Gravediggers who are already dead** (North Brother, the record shop).",
+  "- **Arms of the Abyss.** Benedetta spends 1 blood and rolls Manipulation + Occult (difficulty 7): bring in one tentacle per success. Each constricts for Strength + 1 lethal per turn; breaking free is a resisted Strength roll (difficulty 6).",
+  "- **Three sides in the tracker.** Everyone not a player is on the NPC side; use **Show allies too** in the attack dialog for Gravedigger-on-Wakener attacks.",
+  "",
+  "## How it ends",
+  "- The Prophet is gone. The coterie puts the name to the face, and — if they saved the papers — knows where he has gone: **north, to Broken Arrow**.",
+  "- The Gravediggers leave when Hollis says so. If any of them survive, one (Jinx or Benedetta) may follow the coterie north into Chapter Two.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Ines Varga** (Faithful) and **Singer Ruth Abernathy**.",
+  "- **4 players:** also delete **Mister Bone** (he stayed on the island).",
+  "- **3 players:** also delete **Hollis** and **Big Sol Mercer** (Faithful). Benedetta can raise only two tentacles."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_bonecraft",
+   "name": "Bonecraft (touch)",
+   "short": "Bonecraft",
+   "kind": "brawl",
+   "base": "fixed",
+   "mod": 7,
+   "type": "L",
+   "diffMod": 1,
+   "quirk": "touch · bones out",
+   "notes": "Vicissitude 3. Rulebook: Strength + Body Crafts (difficulty 7); each success is one lethal level as the victim's own bones rip out through the skin. Here it is a brawl strike with a fixed 7-dice damage pool at +1 difficulty."
+  },
+  {
+   "id": "w_bone_saw",
+   "name": "Surgical Bone Saw",
+   "short": "Bone saw",
+   "kind": "melee",
+   "base": "str",
+   "mod": 2,
+   "type": "L",
+   "diffMod": 1,
+   "conceal": "T",
+   "quirk": "1912 hospital issue · diff +1",
+   "notes": "From the island's old surgery. Rusted teeth make it clumsy (+1 difficulty). The Storyteller may rule that one level it inflicts can only be healed with blood, never by rest."
+  },
+  {
+   "id": "w_aerosol",
+   "name": "Aerosol Torch",
+   "short": "Spray torch",
+   "kind": "melee",
+   "base": "fixed",
+   "mod": 1,
+   "type": "fire",
+   "fireLevels": 1,
+   "heat": 5,
+   "quirk": "hairspray + Zippo · fire",
+   "notes": "Hairspray and a lighter. Torch-sized fire: 1 automatic aggravated level per turn, soaked only with Fortitude at difficulty 5. A Pander's answer to a fight he can't win."
+  },
+  {
+   "id": "w_abyss_constrict",
+   "name": "Constricting Tentacle",
+   "short": "Constrict",
+   "kind": "brawl",
+   "base": "str",
+   "mod": 1,
+   "type": "L",
+   "quirk": "holds · Str+1 L per turn",
+   "notes": "Arms of the Abyss. A tentacle that has hold of someone does Strength + 1 lethal every turn. Breaking free: resisted Strength rolls, difficulty 6 for both."
+  }
+ ],
+ "combatants": [
+  {
+   "preset": "wk_choirmaster",
+   "name": "Brother Calloway",
+   "notes": "The choirmaster. Puts his body between the coterie and the alcove until the Prophet is gone. While he stands with the choir, every Singer ignores wound penalties."
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Singer Hope Delaney"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Singer Abe Kessler"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Singer Lucía Paz"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Singer Ruth Abernathy"
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Theo Castellano",
+   "weapons": [],
+   "abil": "Alertness 2, Brawl 1, Dodge 2, Empathy 3, Expression 3, Performance (the Chant) 3, Streetwise 2",
+   "notes": "The clubgoer from Cold Storage: funny, warm, of the King's clan, and now Bound. Serene, singing, glad to see them. Does not fight unless someone attacks the choir, and then only to shield a Singer. One of the single-clan cases."
+  },
+  {
+   "preset": "wk_lieutenant",
+   "name": "Rafe Delacroix",
+   "weapons": [
+    "pistol_hvy",
+    "fire_axe"
+   ],
+   "armor": 3
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Ines Varga",
+   "weapons": [
+    "stake",
+    "road_flare"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Big Sol Mercer",
+   "weapons": [
+    "tire_iron",
+    "revolver_lt"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Delphine Okoro",
+   "weapons": [
+    "crowbar",
+    "knife"
+   ]
+  },
+  {
+   "preset": "neonate",
+   "name": "Hollis",
+   "gen": "11th",
+   "humanity": "4",
+   "attrs": {
+    "str": 4,
+    "dex": 3,
+    "sta": 4,
+    "man": 3,
+    "wit": 3
+   },
+   "abil": "Alertness 2, Athletics 2, Brawl 4, Dodge 3, Firearms 2, Melee 3, Intimidation 4, Leadership 2, Streetwise 3",
+   "disc": "Celerity 2, Potence 3, Presence 2",
+   "wp": 6,
+   "bp": 12,
+   "weapons": [
+    "sawed_off",
+    "machete"
+   ],
+   "notes": "Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down. Starts INACTIVE: out of the downtown tunnel at the start of turn 2. Leaves when the Prophet is gone and the Wakeners are broken, or when two of his pack are down.",
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Sister Benedetta",
+    "kind": "vampire",
+    "gen": "10th",
+    "humanity": "Path of Caine 5",
+    "attrs": [
+     2,
+     3,
+     3,
+     4,
+     4,
+     3,
+     3,
+     3,
+     4
+    ],
+    "abil": "Alertness 2, Brawl 2, Dodge 3, Melee 3, Expression 3, Intimidation 3, Leadership 3, Occult 4, Subterfuge 3",
+    "disc": "Obtenebration 3, Dominate 2, Potence 2",
+    "wp": 8,
+    "bp": 13,
+    "weapons": [
+     "knife"
+    ],
+    "notes": "Starts INACTIVE: out of the downtown tunnel with the rest of the Gravediggers at the start of turn 2. Lasombra, the Gravediggers' priest. Calm, devout, terrifyingly lucid: she reads the Dread as scripture coming true. SHADOW PLAY (1 blood, a scene): +1 die Stealth, +1 difficulty to shoot her, and opponents near her lose one soak die. ARMS OF THE ABYSS (1 blood, Manipulation + Occult difficulty 7): tentacles — bring in the inactive Abyssal Tentacles, one per success. She talks before she fights, and will offer a truce if it serves the hunt."
+   },
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Mister Bone",
+    "kind": "vampire",
+    "gen": "11th",
+    "humanity": "Path of Metamorphosis 5",
+    "attrs": [
+     3,
+     3,
+     4,
+     2,
+     3,
+     1,
+     4,
+     4,
+     3
+    ],
+    "abil": "Alertness 2, Brawl 3, Dodge 2, Melee 2, Stealth 1, Crafts (Body Crafts) 4, Intimidation 3, Medicine 4, Occult 3",
+    "disc": "Vicissitude 4, Fortitude 2, Potence 1, Animalism 2, Auspex 2",
+    "wp": 7,
+    "bp": 13,
+    "weapons": [
+     "w_bonecraft",
+     "w_bone_saw"
+    ],
+    "favored": [
+     "bone_spurs",
+     "w_bonecraft"
+    ],
+    "notes": "Starts INACTIVE: out of the downtown tunnel with the rest of the Gravediggers at the start of turn 2. Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
+   },
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Jinx",
+    "kind": "vampire",
+    "gen": "13th",
+    "humanity": "6",
+    "attrs": [
+     2,
+     4,
+     2,
+     3,
+     3,
+     2,
+     3,
+     2,
+     4
+    ],
+    "abil": "Alertness 3, Athletics 3, Brawl 1, Dodge 3, Firearms 2, Stealth 4, Streetwise 4, Subterfuge 3",
+    "disc": "Celerity 1, Obfuscate 2",
+    "wp": 5,
+    "bp": 10,
+    "weapons": [
+     "pistol_lt",
+     "w_aerosol"
+    ],
+    "notes": "Starts INACTIVE: out of the downtown tunnel with the rest of the Gravediggers at the start of turn 2. Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
+   },
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Abyssal Tentacle 1",
+    "kind": "vampire",
+    "health": "OK,-1,-2,Inc",
+    "attrs": [
+     3,
+     3,
+     3,
+     0,
+     0,
+     0,
+     2,
+     0,
+     2
+    ],
+    "abil": "Brawl 2",
+    "disc": "",
+    "wp": 0,
+    "bp": 0,
+    "weapons": [
+     "w_abyss_constrict"
+    ],
+    "notes": "Starts INACTIVE. Benedetta's Arms of the Abyss (Obtenebration 3): she spends 1 blood and rolls Manipulation + Occult (difficulty 7); bring in one tentacle per success (up to three). Six feet of living darkness reaching from the nearest shadow; Strength and Dexterity 3, four health levels, soaks with Benedetta's Stamina (3). Fire and sunlight hurt it as they hurt a vampire. Gone at the end of the scene, or when she is destroyed."
+   },
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Abyssal Tentacle 2",
+    "kind": "vampire",
+    "health": "OK,-1,-2,Inc",
+    "attrs": [
+     3,
+     3,
+     3,
+     0,
+     0,
+     0,
+     2,
+     0,
+     2
+    ],
+    "abil": "Brawl 2",
+    "disc": "",
+    "wp": 0,
+    "bp": 0,
+    "weapons": [
+     "w_abyss_constrict"
+    ],
+    "notes": "Starts INACTIVE. Benedetta's Arms of the Abyss (Obtenebration 3): she spends 1 blood and rolls Manipulation + Occult (difficulty 7); bring in one tentacle per success (up to three). Six feet of living darkness reaching from the nearest shadow; Strength and Dexterity 3, four health levels, soaks with Benedetta's Stamina (3). Fire and sunlight hurt it as they hurt a vampire. Gone at the end of the scene, or when she is destroyed."
+   },
+   "inactive": true
+  },
+  {
+   "custom": {
+    "name": "Abyssal Tentacle 3",
+    "kind": "vampire",
+    "health": "OK,-1,-2,Inc",
+    "attrs": [
+     3,
+     3,
+     3,
+     0,
+     0,
+     0,
+     2,
+     0,
+     2
+    ],
+    "abil": "Brawl 2",
+    "disc": "",
+    "wp": 0,
+    "bp": 0,
+    "weapons": [
+     "w_abyss_constrict"
+    ],
+    "notes": "Starts INACTIVE. Benedetta's Arms of the Abyss (Obtenebration 3): she spends 1 blood and rolls Manipulation + Occult (difficulty 7); bring in one tentacle per success (up to three). Six feet of living darkness reaching from the nearest shadow; Strength and Dexterity 3, four health levels, soaks with Benedetta's Stamina (3). Fire and sunlight hurt it as they hurt a vampire. Gone at the end of the scene, or when she is destroyed."
+   },
+   "inactive": true
+  }
+ ]
+}

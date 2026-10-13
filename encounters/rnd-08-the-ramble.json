@@ -1,0 +1,76 @@
+{
+ "v": 1,
+ "name": "The Ramble — Something in the Trees",
+ "notes": [
+  "# The Ramble — Something in the Trees",
+  "*Chapter One random encounter — Central Park, or any big park after dark. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The Ramble in Central Park at three in the morning: thirty-six acres of winding paths, rock outcrops and dense trees in the middle of Manhattan, with the city glowing on every side and no one on the paths who wants to be seen.",
+  "- **Trees and rocks** give cover (+1 difficulty to ranged attacks) and break line of sight.",
+  "- **Darkness** away from the lamps: blind fighting, +2 difficulty for anyone who brings no light.",
+  "",
+  "## The situation",
+  "A Wakener tape drop: two Faithful handing a box of cassettes to a thin-blood courier at the Bow Bridge end of the Ramble. The coterie intercepts. And something has been following the Wakeners through the park for three nights, because whatever is in the Chant smells wrong to it.",
+  "",
+  "## Who's who",
+  "- **Courier Vee** — a thin-blood Singer with the box of tapes. Runs at the first sign of trouble.",
+  "- **Marcus Hale and Bettina Cruz** — Caitiff Faithful. Fight to let Vee get away.",
+  "- **Andrea Pike** — Wakener driver, waiting on the East Drive with the van.",
+  "- **The wolf** — an adolescent werewolf. Starts **inactive**.",
+  "",
+  "## Special rules",
+  "- **The wolf arrives** at the start of **turn 3**, in battle form (toggle it: Physical Attributes doubled). It attacks the **Wakeners** first — it is hunting the sound — and then whoever is still fighting.",
+  "- **It is not here to die.** It leaves when it has taken **two aggravated** levels or at the end of turn 5, back into the trees. Nothing the coterie does will follow it.",
+  "- **Lupines** regenerate a level a turn, cannot soak silver, and act several times a turn (the tracker handles this). One neonate against it alone is a dead neonate. Make that clear by turn 4.",
+  "- **Afterwards:** claw marks on a tree, a Wakener torn open, and a lesson the Camarilla teaches every neonate: the city belongs to the Kindred only as far as the streetlights reach.",
+  "",
+  "## How it ends",
+  "- The tape box (if they stopped Vee) holds forty cassettes and a drop list in Vee's handwriting: three Upper West Side addresses.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Andrea Pike**.",
+  "- **4 players:** also delete **Bettina Cruz**.",
+  "- **3 players:** the wolf leaves after **one** aggravated level, or at the end of turn 4."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "wk_singer",
+   "name": "Courier Vee",
+   "notes": "Thin-blood courier with a box of forty tapes. Runs at the first sign of trouble — toward the East Drive and the van."
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Marcus Hale",
+   "weapons": [
+    "tire_iron",
+    "revolver_lt"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Bettina Cruz",
+   "weapons": [
+    "crowbar",
+    "knife"
+   ]
+  },
+  {
+   "preset": "wk_driver",
+   "name": "Andrea Pike",
+   "weapons": [
+    "sap",
+    "pistol_lt"
+   ],
+   "notes": "Waiting with the van on the East Drive. Leaves with Vee, or alone."
+  },
+  {
+   "preset": "were_young",
+   "name": "The Wolf in the Ramble",
+   "inactive": true,
+   "notes": "Starts INACTIVE: arrives at the start of turn 3 in battle form (toggle it). Hunting the Chant: attacks the Wakeners first. Leaves after two aggravated levels or at the end of turn 5. Regenerates a level a turn; silver can't be soaked."
+  }
+ ]
+}

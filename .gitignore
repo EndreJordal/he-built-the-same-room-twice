@@ -1,0 +1,7 @@
+# Copyrighted rulebook text: a local reference only, never publish it.
+Vampire_The_Masquerade_Revised_Edition.md
+*.pdf
+
+# Local tooling
+.claude/
+__pycache__/

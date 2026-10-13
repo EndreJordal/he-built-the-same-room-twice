@@ -1,0 +1,239 @@
+{
+ "v": 1,
+ "name": "The Record Shop — Fire in the Dubbing Room",
+ "notes": [
+  "# The Record Shop — Fire in the Dubbing Room",
+  "*Chapter One, §2.4 location 12. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "A basement shop on St. Marks Place. Front room: crates of vinyl, punk flyers, a counter. Back room: the dubbing room — dozens of high-speed cassette decks running at once, boxes of blank tapes stacked to the ceiling, and master tapes labelled by date. One stair up to the street; a fire door to the alley, chained shut from inside (Dot has the key).",
+  "- **Two rooms, one doorway** between them. Only two people fit through it in a turn.",
+  "- **The decks are playing the Chant** at low volume the whole time — every Kindred in the back room is at +1 difficulty to everything until someone kills the power (the breaker is behind the counter; one action).",
+  "- **Everything burns.** Paper, vinyl, cardboard and thousands of cassettes.",
+  "",
+  "## The situation",
+  "The coterie and the Gravediggers come down the stair within a minute of each other, after the same thing: the cult's distribution network. Dot Malloy and two of the Faithful are in the back room. Nobody planned this. It turns into a three-way fight, and then the shop catches fire.",
+  "- **The shoebox.** Dot's distribution list — every drop point in the city, the biggest under the Manhattan Bridge — is in a shoebox under the dubbing bench. Grabbing it is one action in the back room.",
+  "- **The Gravediggers' goal** is a live Wakener to take back to North Brother Island. Once they have one, they leave by the stair.",
+  "",
+  "## Who's who",
+  "- **Hollis** — Brujah antitribu, the ductus. Blocks the stair while the others work.",
+  "- **Mister Bone** — Tzimisce. Wants a specimen, and the coterie is more interesting than the Wakeners.",
+  "- **Jinx** — Pander. Starts hidden; sets the fire.",
+  "- **Dot Malloy** — the shop's owner, a Believer ghoul. Thinks she is helping. Defends the masters with a baseball bat.",
+  "- **Lou Fiorella and Nadia Brandt** — Caitiff Faithful guarding the dubbing room. They attack whoever is closest to Dot.",
+  "- **The Fire** — a hazard, not a person. Starts **inactive**.",
+  "",
+  "## Special rules",
+  "- **The Fire starts at the end of turn 2** (Jinx's aerosol torch into a box of blank tapes, or a knocked-over lamp). Bring it in with ▶; it acts **last** every turn whatever its initiative says.",
+  "- **Spread.** The Fire's extra pool is **Spread**. At its turn, add 1. **1–2:** the back room burns. **3:** the doorway burns and smoke fills the front (+1 difficulty to everything, everywhere). **4:** the shoebox is gone. **5:** both rooms burn (two levels a turn). **6:** the ceiling comes down — anyone still inside takes 4 dice bashing and must get out next turn.",
+  "- **Burning.** At the Fire's turn, use its *Burning Room* weapon on everyone standing in a burning area (1 aggravated, Fortitude soak at difficulty 5).",
+  "- **Putting it out.** There is an extinguisher behind the counter: one action, Dexterity + Athletics (difficulty 6), each success removes 1 Spread. It only buys time.",
+  "- **Rötschreck.** The first time a character is in a burning area, roll Courage (difficulty 6): failure means they bolt for the stair, through anyone in the way.",
+  "",
+  "## How it ends",
+  "- The Gravediggers leave with a wounded Wakener, by car to the river. In the struggle, **Jinx drops a boat-hire receipt** (Marisol's piers) — the trail to North Brother Island.",
+  "- The shop is lost either way. What the coterie saved — the shoebox, a master tape — is what they have.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Nadia Brandt**.",
+  "- **4 players:** also delete **Lou Fiorella**.",
+  "- **3 players:** also delete **Mister Bone** (he is waiting with the car), and the Fire starts at the end of turn 3 instead."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_bonecraft",
+   "name": "Bonecraft (touch)",
+   "short": "Bonecraft",
+   "kind": "brawl",
+   "base": "fixed",
+   "mod": 7,
+   "type": "L",
+   "diffMod": 1,
+   "quirk": "touch · bones out",
+   "notes": "Vicissitude 3. Rulebook: Strength + Body Crafts (difficulty 7); each success is one lethal level as the victim's own bones rip out through the skin. Here it is a brawl strike with a fixed 7-dice damage pool at +1 difficulty."
+  },
+  {
+   "id": "w_bone_saw",
+   "name": "Surgical Bone Saw",
+   "short": "Bone saw",
+   "kind": "melee",
+   "base": "str",
+   "mod": 2,
+   "type": "L",
+   "diffMod": 1,
+   "conceal": "T",
+   "quirk": "1912 hospital issue · diff +1",
+   "notes": "From the island's old surgery. Rusted teeth make it clumsy (+1 difficulty). The Storyteller may rule that one level it inflicts can only be healed with blood, never by rest."
+  },
+  {
+   "id": "w_aerosol",
+   "name": "Aerosol Torch",
+   "short": "Spray torch",
+   "kind": "melee",
+   "base": "fixed",
+   "mod": 1,
+   "type": "fire",
+   "fireLevels": 1,
+   "heat": 5,
+   "quirk": "hairspray + Zippo · fire",
+   "notes": "Hairspray and a lighter. Torch-sized fire: 1 automatic aggravated level per turn, soaked only with Fortitude at difficulty 5. A Pander's answer to a fight he can't win."
+  },
+  {
+   "id": "w_shop_fire",
+   "name": "Burning Room",
+   "short": "Burning room",
+   "kind": "melee",
+   "base": "fixed",
+   "mod": 1,
+   "type": "fire",
+   "fireLevels": 1,
+   "heat": 5,
+   "quirk": "everyone in the burning area",
+   "notes": "Not an attack. At the Fire's turn, use this on everyone standing in a burning area: 1 automatic aggravated level, Fortitude soak at difficulty 5. Two levels once Spread reaches 5."
+  }
+ ],
+ "combatants": [
+  {
+   "preset": "neonate",
+   "name": "Hollis",
+   "gen": "11th",
+   "humanity": "4",
+   "attrs": {
+    "str": 4,
+    "dex": 3,
+    "sta": 4,
+    "man": 3,
+    "wit": 3
+   },
+   "abil": "Alertness 2, Athletics 2, Brawl 4, Dodge 3, Firearms 2, Melee 3, Intimidation 4, Leadership 2, Streetwise 3",
+   "disc": "Celerity 2, Potence 3, Presence 2",
+   "wp": 6,
+   "bp": 12,
+   "weapons": [
+    "sawed_off",
+    "machete"
+   ],
+   "notes": "Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down."
+  },
+  {
+   "custom": {
+    "name": "Mister Bone",
+    "kind": "vampire",
+    "gen": "11th",
+    "humanity": "Path of Metamorphosis 5",
+    "attrs": [
+     3,
+     3,
+     4,
+     2,
+     3,
+     1,
+     4,
+     4,
+     3
+    ],
+    "abil": "Alertness 2, Brawl 3, Dodge 2, Melee 2, Stealth 1, Crafts (Body Crafts) 4, Intimidation 3, Medicine 4, Occult 3",
+    "disc": "Vicissitude 4, Fortitude 2, Potence 1, Animalism 2, Auspex 2",
+    "wp": 7,
+    "bp": 13,
+    "weapons": [
+     "w_bonecraft",
+     "w_bone_saw"
+    ],
+    "favored": [
+     "bone_spurs",
+     "w_bonecraft"
+    ],
+    "notes": "Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
+   }
+  },
+  {
+   "custom": {
+    "name": "Jinx",
+    "kind": "vampire",
+    "gen": "13th",
+    "humanity": "6",
+    "attrs": [
+     2,
+     4,
+     2,
+     3,
+     3,
+     2,
+     3,
+     2,
+     4
+    ],
+    "abil": "Alertness 3, Athletics 3, Brawl 1, Dodge 3, Firearms 2, Stealth 4, Streetwise 4, Subterfuge 3",
+    "disc": "Celerity 1, Obfuscate 2",
+    "wp": 5,
+    "bp": 10,
+    "weapons": [
+     "pistol_lt",
+     "w_aerosol"
+    ],
+    "notes": "Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
+   }
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Dot Malloy",
+   "weapons": [
+    "baseball_bat"
+   ],
+   "attrs": {
+    "cha": 3,
+    "man": 3
+   },
+   "notes": "Owns the shop and runs the dubbing room; a Believer who thinks she is helping. Keeps the distribution list in a shoebox under the dubbing bench, and the fire-door key on a shoelace round her neck. Defends the master tapes before herself."
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Lou Fiorella",
+   "weapons": [
+    "tire_iron",
+    "knife"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Nadia Brandt",
+   "weapons": [
+    "crowbar",
+    "revolver_lt"
+   ]
+  },
+  {
+   "custom": {
+    "name": "The Fire",
+    "kind": "mortal",
+    "attrs": [
+     1,
+     0,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     0
+    ],
+    "health": "OK,OK,OK,OK,OK,OK,OK,OK,OK,OK",
+    "wp": 0,
+    "extra": {
+     "label": "Spread",
+     "max": 6,
+     "cur": 0
+    },
+    "weapons": [
+     "w_shop_fire"
+    ],
+    "notes": "A HAZARD, not a combatant: nobody can attack it. Starts INACTIVE: bring it in at the end of turn 2. Acts LAST every turn whatever its initiative says. At its turn: +1 Spread, then use Burning Room on everyone in a burning area. SPREAD 1–2 back room burns · 3 doorway burns, smoke everywhere (+1 difficulty) · 4 shoebox gone · 5 both rooms burn, 2 levels a turn · 6 ceiling collapses (4 dice bashing to everyone inside). The extinguisher removes 1 Spread per success (Dexterity + Athletics, difficulty 6)."
+   },
+   "inactive": true
+  }
+ ]
+}

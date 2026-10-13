@@ -1,0 +1,109 @@
+{
+ "v": 1,
+ "name": "Wakener Cell — Worth Street Station",
+ "notes": [
+  "# Wakener Cell — Worth Street Station",
+  "*Chapter One random encounter — any dead station or service tunnel on the cult trail (§2.3). Balanced for six neonates.*",
+  "",
+  "## The place",
+  "Worth Street station, closed since 1948, a few hundred yards up the line from City Hall. Two side platforms of filthy white tile, the name still spelled out in mosaic, a mezzanine stair choked with rubble. The cell has strung work lights from a car battery and laid mattresses along the uptown platform.",
+  "- **The 6 train** runs through without stopping. Every few minutes (roll a die each turn; on a 1 a train passes) the platform floods with light and noise for one full turn: **the Chant cannot be heard while a train passes**, and nobody can hear anything shouted.",
+  "- **The third rail** sits between the platforms. Anyone knocked or thrown onto the tracks risks it: Dexterity + Athletics (difficulty 6) to avoid touching it. Contact is 8 dice of bashing damage, soaked normally (Storyteller's call: the Revised core has no exact number).",
+  "- **Work lights:** the car battery is in the middle of the platform. Kick it over and the station is dark apart from the passing trains (blind fighting: +2 difficulty).",
+  "- **Ways out:** the rubble stair (slow, one at a time), the tracks south toward City Hall, and a service door the cell keeps locked. Walt Pirelli has the key.",
+  "",
+  "## The situation",
+  "The coterie walks in on a rehearsal: Brother Calloway is teaching three Singers a new verse for the City Hall sermon. The rest of the cell is guarding them, and Eddie Quinn has been brought along to carry the tapes. The cell does not expect anyone.",
+  "- **The moment the coterie is seen, the Singers start singing.** Every Kindred in the station rolls for the **Dread** as at Cold Storage (§2.2 — V): Courage, difficulty 6. Success means frozen, failure means frenzy aimed at the Singers. Willpower buys one controlled action per turn.",
+  "- The Singers keep singing until they are silenced. Each one who falls thins the Chant. When the last voice stops, the frozen are released.",
+  "",
+  "## Who's who",
+  "- **June Okafor, Tommy Vreeland, Marisa Kell** (Thin-Blood Singers) — the voice. They do not fight and do not run.",
+  "- **Brother Calloway** (Thin-Blood Choirmaster) — while he stands with the choir, the Singers ignore wound penalties. He holds the coterie off with his own body so the others can sing.",
+  "- **Dutch Kowalczyk** (Lieutenant) — Kevlar vest, heavy pistol, fire axe. The one the coterie should learn by name: if things go badly, the cell spends itself to get him out down the tracks.",
+  "- **Ray Santangelo and Big Lorraine** (Caitiff Faithful) — the hunter's kit: stakes and road flares. They go for whoever is frozen first.",
+  "- **Cosmo Duarte** (Caitiff Faithful) — tire iron and the cell's one gun, a .38.",
+  "- **Eddie Quinn** (Discarded Ghoul) — the Cold Storage manager. Terrified. Hides behind the mattresses and surrenders to the first person who offers him vitae or safety.",
+  "- **Walt Pirelli** (Driver and Handler) — sap and Glock. Has the service-door key and the cell's van keys.",
+  "",
+  "## Special rules",
+  "- **Rules for every Wakener** (Appendix C.1): rank means nothing to them, they never flee and never surrender, anyone in reach spends Willpower to protect a Singer, and Dominate commands against the cult fail on the Bound.",
+  "- **Caitiff and the Dread:** the Faithful roll too, but a success only shakes them (+1 difficulty for the scene).",
+  "- **Fire:** a road flare pointed at a neonate calls for a Rötschreck roll (Courage, difficulty 6 or higher).",
+  "",
+  "## How it ends",
+  "- **The cell does not win by killing.** It wins by keeping the Chant going and getting Dutch Kowalczyk out. Once the Singers are silenced and Dutch is gone or down, the rest fight to the end anyway.",
+  "- **What the coterie can find:** a box of tapes labelled by date, Walt's van keys (a box van on Leonard Street with cots in the back), and Eddie Quinn, who will talk.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Cosmo Duarte**.",
+  "- **4 players:** also delete **Walt Pirelli** (the service door is unlocked).",
+  "- **3 players:** also delete **Big Lorraine** and **Marisa Kell**. Dutch Kowalczyk starts without the Kevlar vest (armor box: none).",
+  "- **2 players or fewer:** skip the fight. The coterie arrives as the cell is leaving and can follow it instead."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "wk_singer",
+   "name": "June Okafor"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Tommy Vreeland"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Marisa Kell"
+  },
+  {
+   "preset": "wk_choirmaster",
+   "name": "Brother Calloway"
+  },
+  {
+   "preset": "wk_lieutenant",
+   "name": "Dutch Kowalczyk",
+   "weapons": [
+    "pistol_hvy",
+    "fire_axe"
+   ],
+   "armor": 3
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Ray Santangelo",
+   "weapons": [
+    "stake",
+    "road_flare"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Big Lorraine",
+   "weapons": [
+    "stake",
+    "road_flare"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Cosmo Duarte",
+   "weapons": [
+    "tire_iron",
+    "revolver_lt"
+   ]
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Eddie Quinn"
+  },
+  {
+   "preset": "wk_driver",
+   "name": "Walt Pirelli",
+   "weapons": [
+    "sap",
+    "pistol_lt"
+   ]
+  }
+ ]
+}

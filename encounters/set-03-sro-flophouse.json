@@ -1,0 +1,108 @@
+{
+ "v": 1,
+ "name": "The SRO — Third Floor",
+ "notes": [
+  "# The SRO — Third Floor",
+  "*Chapter One, §2.4 location 10. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The third floor of a single-room-occupancy hotel in Hell's Kitchen: one long fluorescent hallway, twelve doors, a shared bathroom, the stairwell at one end and a fire-escape window at the other. Mrs. Park watches the lobby from behind bulletproof glass.",
+  "- **The hallway** is one yard wide. At most **two** people can fight side by side; ranged attacks past a body in the way are at +1 difficulty.",
+  "- **The doors.** Every room has someone in it. Most stay shut. Some don't (see the discarded ghouls).",
+  "- **Mrs. Park** calls 911 at the start of **turn 4** if anything is still going on. Patrol cars arrive at turn 8.",
+  "",
+  "## The situation",
+  "The coterie comes for **Eddie Quinn** in room 3C at the same moment a Wakener collection crew comes for him too — Sister Joy and two of the Faithful, sent to bring him to hear the old man again, or to make sure he stops talking. They meet in the hallway outside his door.",
+  "- **Eddie is the prize.** He is the inside man who let the Singers rehearse, and he knows where the church people took him. Whoever leaves with him wins.",
+  "- **The smell.** The first Kindred to bleed in the hallway wakes the floor: the discarded ghouls in the other rooms have not had vitae in weeks.",
+  "",
+  "## Who's who",
+  "- **Sister Joy** — thin-blood recruiter. Talks first, warmly, and tries to recruit any thin-blood or Caitiff in the coterie on the spot.",
+  "- **Tito Ramos and Glenn Hathaway** — Caitiff Faithful, there to carry Eddie out.",
+  "- **Benny Okonkwo** — Wakener driver, waiting in the van downstairs. Starts **inactive**: comes up the stairs at the start of turn 3.",
+  "- **Lena Voss, Mr. Abernathy and Kid Dante** — discarded ghouls in withdrawal. Start **inactive**. See below.",
+  "- **Eddie Quinn** — starts **inactive**, behind the door of 3C. See below.",
+  "",
+  "## Special rules",
+  "- **The hungry floor.** Bring in the three discarded ghouls the turn after the first **Kindred** in the hallway takes lethal or aggravated damage. They are on nobody's side: each turn they go for whichever vampire is bleeding most, on either side, trying to drink rather than kill (a successful bite takes 1 blood from the target instead of damage). Offered vitae, any of them stops fighting.",
+  "- **Eddie chooses.** He opens the door when someone outside offers him vitae, safety or both (Charisma + Empathy through the door, difficulty 6; Sister Joy rolls for the Wakeners every turn). He joins whoever wins him over (use ✎ to set his side), and fights badly for them with a kitchen knife.",
+  "- **Two at a time.** Enforce the hallway: anyone not in the front two ranks can only shoot past, use Disciplines, or wait.",
+  "",
+  "## How it ends",
+  "- The Wakeners leave when Eddie is lost or Sister Joy goes down; Benny drives off without anyone.",
+  "- Eddie, safe and fed, confesses: the rehearsals, the church people (the soup kitchen), and the old man under the bridge.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Glenn Hathaway**.",
+  "- **4 players:** also delete **Benny Okonkwo** and **Kid Dante**.",
+  "- **3 players:** also delete **Tito Ramos**. Sister Joy came with only the driver."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "wk_recruiter",
+   "name": "Sister Joy",
+   "notes": "Thin-blood recruiter. Talks first and warmly; tries to recruit any thin-blood or Caitiff in the coterie on the spot. Rolls each turn to coax Eddie out of 3C. The Wakeners leave if she goes down."
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Tito Ramos",
+   "weapons": [
+    "tire_iron",
+    "knife"
+   ]
+  },
+  {
+   "preset": "wk_faithful",
+   "name": "Glenn Hathaway",
+   "weapons": [
+    "crowbar",
+    "revolver_lt"
+   ]
+  },
+  {
+   "preset": "wk_driver",
+   "name": "Benny Okonkwo",
+   "weapons": [
+    "sap",
+    "pistol_lt"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: comes up the stairs at the start of turn 3. Drives off alone if the crew loses."
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Lena Voss",
+   "inactive": true,
+   "weapons": [
+    "broken_bottle"
+   ],
+   "notes": "Starts INACTIVE: comes out the turn after the first Kindred in the hallway takes lethal or aggravated damage. On nobody's side: goes for the vampire bleeding most, trying to drink (a successful bite takes 1 blood instead of damage). Offered vitae, she stops."
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Mr. Abernathy",
+   "inactive": true,
+   "weapons": [
+    "knife"
+   ],
+   "notes": "Starts INACTIVE: comes out with the others the turn after the first Kindred in the hallway takes lethal or aggravated damage. On nobody's side: goes for the vampire bleeding most, trying to drink (a successful bite takes 1 blood instead of damage). Offered vitae, he stops. Was a Ventrue's butler for thirty years, and still says 'sir'."
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Kid Dante",
+   "inactive": true,
+   "weapons": [
+    "switchblade"
+   ],
+   "notes": "Starts INACTIVE: comes out with the others the turn after the first Kindred in the hallway takes lethal or aggravated damage. On nobody's side: goes for the vampire bleeding most, trying to drink (a successful bite takes 1 blood instead of damage). Offered vitae, he stops. Nineteen, and older than he looks."
+  },
+  {
+   "preset": "wk_discarded",
+   "name": "Eddie Quinn",
+   "inactive": true,
+   "notes": "Starts INACTIVE behind the door of 3C. Opens for whoever offers vitae or safety (Charisma + Empathy through the door, difficulty 6; Sister Joy rolls every turn). Joins that side (use ✎ to set his side) and fights badly with a kitchen knife. He is the clue: whoever leaves with him wins."
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "v": 1,
+ "name": "Hot Night on Avenue A",
+ "notes": [
+  "# Hot Night on Avenue A",
+  "*Chapter One random encounter — a street corner anywhere downtown. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "A corner on Avenue A at one in the morning, nineteen days into the heatwave. Kids have opened a fire hydrant; the street is running with water and half the block is out on the stoops.",
+  "- **The hydrant.** The wet street costs a die from Dodge and Athletics, and anyone knocked down slides a yard.",
+  "- **Witnesses.** Forty people on the stoops. Anything that isn't a fistfight is a Masquerade problem: Disciplines that show (Celerity, claws, Potence that bends metal) need hiding or explaining.",
+  "",
+  "## The situation",
+  "Three Brujah anarchs had a bad night last week — everyone did — and they are looking for someone to take it out on. Somebody in the coterie looks at one of them wrong. They want a fight, a fair one, with their fists.",
+  "- **The Dread aftermath.** Everyone's frenzy difficulties are +1 tonight, both sides.",
+  "- **Honour.** The anarchs fight bare-handed. The first side to draw a weapon makes it a knife fight — and Rook (if the coterie knows him) hears about it by tomorrow.",
+  "",
+  "## Who's who",
+  "- **Dez, Marta Kowalski and Little Cheung** — Brujah neonates. Loud, proud, and not as tough as they think.",
+  "- **Two hangers-on** — their mortal friends (Extras), who join in with bottles if it goes badly for the anarchs.",
+  "- **Officers Duffy and Reyes** — a patrol car. Start **inactive**. See below.",
+  "",
+  "## Special rules",
+  "- **The cops** pull up at the start of **turn 4**, lights on. Bring them in only if anyone is still fighting: they go for whoever is winning. Most sensible Kindred scatter. The anarchs do — laughing.",
+  "- **Calling it off.** Any character who wins a contest of Charisma + Intimidation against Dez (difficulty 6) can end it with words. The anarchs respect that more than winning.",
+  "",
+  "## How it ends",
+  "- First blood or the cops. Afterwards, the anarchs might be the coterie's best friends on the street — or a grudge that turns up at the Bowery dive.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Hanger-on Paulie**.",
+  "- **4 players:** also delete **Hanger-on Shayla**.",
+  "- **3 players:** also delete **Little Cheung**."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "neonate",
+   "name": "Dez",
+   "attrs": {
+    "str": 4
+   },
+   "disc": "Potence 1, Celerity 1, Presence 1",
+   "weapons": [
+    "knife"
+   ],
+   "notes": "Brujah anarch, the loud one. Fists first; draws the knife only if someone else draws. Can be talked down (contested Charisma + Intimidation)."
+  },
+  {
+   "preset": "neonate",
+   "name": "Marta Kowalski",
+   "disc": "Potence 1, Celerity 1, Presence 1",
+   "weapons": [
+    "brass_knuckles"
+   ],
+   "notes": "Brujah anarch. Brass knuckles count as fists, as far as she is concerned."
+  },
+  {
+   "preset": "neonate",
+   "name": "Little Cheung",
+   "attrs": {
+    "dex": 4
+   },
+   "disc": "Celerity 2, Potence 1",
+   "weapons": [
+    "switchblade"
+   ],
+   "notes": "Brujah anarch, the fast one. Keeps the switchblade in his boot until it's a knife fight."
+  },
+  {
+   "preset": "thug",
+   "name": "Hanger-on Paulie",
+   "weapons": [
+    "broken_bottle"
+   ],
+   "notes": "Mortal friend of the anarchs (an Extra). Joins in when it goes badly for them."
+  },
+  {
+   "preset": "thug",
+   "name": "Hanger-on Shayla",
+   "weapons": [
+    "broken_bottle"
+   ],
+   "notes": "As Paulie."
+  },
+  {
+   "preset": "gov_agent",
+   "name": "Officer Duffy",
+   "kind": "mortal",
+   "weapons": [
+    "revolver_lt",
+    "club"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: pulls up at the start of turn 4 if anyone is still fighting. NYPD patrol officer; goes for whoever is winning. A Masquerade problem with a radio."
+  },
+  {
+   "preset": "gov_agent",
+   "name": "Officer Reyes",
+   "kind": "mortal",
+   "weapons": [
+    "revolver_lt",
+    "club"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: arrives with Duffy at the start of turn 4 if anyone is still fighting. As Duffy."
+  }
+ ]
+}

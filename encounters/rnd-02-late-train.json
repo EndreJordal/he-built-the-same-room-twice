@@ -1,0 +1,119 @@
+{
+ "v": 1,
+ "name": "The Late Train — Bounty Hunters",
+ "notes": [
+  "# The Late Train — Bounty Hunters",
+  "*Chapter One random encounter — any subway car after midnight. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The last car of a 4 train, rattling north under Lexington Avenue at two in the morning. Graffiti, orange seats, one sleeping drunk.",
+  "- **Cramped.** No ranged attacks beyond the length of the car (10 yards); −1 die to Dodge. Only two people can fight side by side in the aisle.",
+  "- **The lights** fail between stations: every other turn is **dark** (blind fighting, +2 difficulty).",
+  "- **Stations.** Every third turn the train stops and the doors open for one turn. Anyone can get off — or on.",
+  "",
+  "## The situation",
+  "This summer someone has been teaching New York's gangs what vampires are. A dreadlocked stranger came to a Brighton Beach crew, showed them what he could do, and promised money for every one they bring down. Tonight they have been riding the late trains looking for the cold, pale ones — and they have found the coterie.",
+  "- **They know.** They carry stakes, a crucifix, and a Polaroid of a 'vampire' that is actually a junkie. They are terrified, which makes them dangerous.",
+  "",
+  "## Who's who",
+  "- **Sasha Volkov** — the crew boss, with a sawed-off and a stake. Has seen one real vampire die and wants to see another.",
+  "- **Four gangsters** — Extras with stakes and knives. One has the crucifix.",
+  "- **Two more** start **inactive**: they board at the next station.",
+  "",
+  "## Special rules",
+  "- **Stakes.** They aim for the heart (difficulty 9, three damage successes to stake). Expect them to try with every attack.",
+  "- **The next station.** Bring in Yuri and Kostya when the doors open on turn 3.",
+  "- **Breaking them.** They are mortals who think they are hunting monsters. Any open display (fangs, claws, someone shrugging off a shotgun blast) forces a Courage-style Willpower roll from each gangster (difficulty 7): failure, they flee at the next stop. Sasha does not break.",
+  "- **The drunk** sleeps through everything. Probably.",
+  "",
+  "## How it ends",
+  "- A prisoner talks: the stranger called himself Caitiff, paid in cash, and told them where to look. It is the same story the Court has been hearing all summer — and it has nothing to do with the Wakeners, which is the point.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Kostya**.",
+  "- **4 players:** also delete **Yuri**.",
+  "- **3 players:** also delete **Dima** and **Anton**."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_crucifix",
+   "name": "Brandished Crucifix",
+   "short": "Crucifix",
+   "kind": "brawl",
+   "base": "fixed",
+   "mod": 0,
+   "type": "B",
+   "quirk": "useless without Faith",
+   "notes": "Bought on Mulberry Street this afternoon. Without True Faith it does nothing at all, and the gangster holding it does not know that yet."
+  }
+ ],
+ "combatants": [
+  {
+   "preset": "enforcer",
+   "name": "Sasha Volkov",
+   "weapons": [
+    "sawed_off",
+    "stake"
+   ],
+   "notes": "Brighton Beach crew boss. Has seen one vampire die and wants to see another. Aims stakes at the heart. Never breaks."
+  },
+  {
+   "preset": "thug",
+   "name": "Dima",
+   "weapons": [
+    "stake",
+    "knife"
+   ],
+   "notes": "Gangster (an Extra). Aims for the heart. Breaks at an open display of the supernatural (Willpower, difficulty 7)."
+  },
+  {
+   "preset": "thug",
+   "name": "Anton",
+   "weapons": [
+    "stake",
+    "knife"
+   ],
+   "notes": "As Dima."
+  },
+  {
+   "preset": "thug",
+   "name": "Lev",
+   "weapons": [
+    "w_crucifix",
+    "stake"
+   ],
+   "notes": "As Dima. Holds the crucifix up first and is very surprised when it does nothing."
+  },
+  {
+   "preset": "thug",
+   "name": "Misha",
+   "weapons": [
+    "stake",
+    "pistol_lt"
+   ],
+   "notes": "As Dima. The only other gun."
+  },
+  {
+   "preset": "thug",
+   "name": "Yuri",
+   "weapons": [
+    "stake",
+    "club"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: boards at the next station (turn 3). As Dima."
+  },
+  {
+   "preset": "thug",
+   "name": "Kostya",
+   "weapons": [
+    "stake",
+    "knife"
+   ],
+   "inactive": true,
+   "notes": "Starts INACTIVE: boards with Yuri at the next station (turn 3). As Dima."
+  }
+ ]
+}

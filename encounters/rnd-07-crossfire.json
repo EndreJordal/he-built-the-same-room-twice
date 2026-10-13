@@ -1,0 +1,90 @@
+{
+ "v": 1,
+ "name": "Crossfire on Flatbush",
+ "notes": [
+  "# Crossfire on Flatbush",
+  "*Chapter One random encounter — any street in Brooklyn or the Bronx where two crews meet. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "A block of Flatbush Avenue at closing time: a jerk-chicken place, a shuttered pawnshop, double-parked cars, a bus shelter. Two crews arrive from opposite ends at once.",
+  "- **Cars** are cover (+1 difficulty to shoot past). A car that takes a Molotov burns from the next turn (torch-sized fire to anyone beside it) and explodes at the start of the third turn after (6 dice bashing to everyone within 3 yards).",
+  "",
+  "## The situation",
+  "The gang war the Court has been ignoring all summer. The Montego Bay posse and a crew of Brooklyn *mafioski* have both been told that the other side works for vampires — by the same dreadlocked stranger. They are both right about one thing: there is a vampire on this block tonight, and it is the coterie.",
+  "- **Three sides.** The crews shoot at each other first. Anyone who shows fangs, claws or shrugs off a bullet becomes everyone's first target.",
+  "",
+  "## Who's who",
+  "- **Posse:** **Desmond 'Dread' Clarke** (enforcer) and two posse gunmen (Extras).",
+  "- **Mafioski:** **Grigor Belov** (enforcer) and two gunmen with stakes in their belts (Extras).",
+  "- **The stranger** watches from a rooftop. Not a combatant: anyone who looks up on a Perception + Alertness roll (difficulty 8) sees a dreadlocked figure who is gone the next moment. Mention it, and never explain it.",
+  "",
+  "## Special rules",
+  "- **Use 'Show allies too'** in the attack dialog for gang-on-gang shooting.",
+  "- **Grigor's Molotov** goes on turn 2, at whichever side is winning.",
+  "- **Sirens** at the start of turn 5. Both crews scatter at turn 6.",
+  "",
+  "## How it ends",
+  "- Whatever the coterie does here, the war goes on. A captured gunman from either side describes the same stranger.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Posse gunman Junior**.",
+  "- **4 players:** also delete **Mafiya gunman Pavel**.",
+  "- **3 players:** also delete **Posse gunman Tank** and **Mafiya gunman Oleg**."
+ ],
+ "pcs": true,
+ "combatants": [
+  {
+   "preset": "enforcer",
+   "name": "Desmond 'Dread' Clarke",
+   "weapons": [
+    "smg_small",
+    "knife"
+   ],
+   "notes": "Montego Bay posse. Thinks the mafioski work for vampires. Shoots at them first — then at anything that won't stay down."
+  },
+  {
+   "preset": "thug",
+   "name": "Posse gunman Tank",
+   "weapons": [
+    "pistol_hvy"
+   ],
+   "notes": "Posse (an Extra)."
+  },
+  {
+   "preset": "thug",
+   "name": "Posse gunman Junior",
+   "weapons": [
+    "revolver_lt"
+   ],
+   "notes": "Posse (an Extra). Sixteen."
+  },
+  {
+   "preset": "enforcer",
+   "name": "Grigor Belov",
+   "weapons": [
+    "shotgun",
+    "molotov"
+   ],
+   "notes": "Brooklyn mafioski. Throws the Molotov on turn 2 at whichever side is winning. Carries a stake and knows what it is for."
+  },
+  {
+   "preset": "thug",
+   "name": "Mafiya gunman Oleg",
+   "weapons": [
+    "pistol_lt",
+    "stake"
+   ],
+   "notes": "Mafioski (an Extra)."
+  },
+  {
+   "preset": "thug",
+   "name": "Mafiya gunman Pavel",
+   "weapons": [
+    "sawed_off",
+    "stake"
+   ],
+   "notes": "Mafioski (an Extra)."
+  }
+ ]
+}

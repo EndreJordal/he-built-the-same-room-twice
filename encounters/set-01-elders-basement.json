@@ -1,0 +1,127 @@
+{
+ "v": 1,
+ "name": "The Elder's Basement — When the Chains Break",
+ "notes": [
+  "# The Elder's Basement — When the Chains Break",
+  "*Chapter One, §2.4 location 5. Balanced for six neonates.*",
+  "",
+  "## The place",
+  "The cellar of Cornelius Vandermeer's brownstone in Brooklyn Heights: whitewashed brick, a coal boiler, wine racks, and four iron rings bolted into the north wall with chains run through them. One narrow stair up to the kitchen; a coal chute to the garden. A single bulb on a cord.",
+  "- **The stair** is one person wide. Whoever holds it holds the cellar.",
+  "- **The bulb** goes out the first time anything heavy hits the ceiling (Storyteller's call): blind fighting, +2 difficulty, until someone finds the kitchen switch.",
+  "- **The party wall.** Next door, a radio is playing the Night Owl's show. At three in the morning the Chant comes through the brick.",
+  "",
+  "## The situation",
+  "The coterie agreed — through Preston — to watch Vandermeer through a bad night. At 3 a.m. the Chant leaks through the party wall, the Dread takes him, and he tears one chain out of the brick. He is not trying to kill anyone. He is trying to get away from a sound that is inside the walls, and the coterie is between him and the stair.",
+  "- **Do not destroy him.** He is the only one in the city who can name the voice on the tape. If he meets Final Death, so does that lead (the Prophet's papers at City Hall still give the town).",
+  "- **The radio.** While it plays, every Kindred in the cellar is at +1 difficulty to everything. Someone can run next door (one turn out, one turn to deal with the sleepy neighbour, one turn back) and shut it off. That is a Masquerade problem of its own.",
+  "",
+  "## Who's who",
+  "- **Cornelius Vandermeer** — Ventrue elder, in frenzy (toggle the frenzy status: he ignores wound penalties). Cannot use Dominate or Presence while frenzied. Fortitude 4 and Stamina 5: beating him down with fists will take all night.",
+  "- **Mrs. Agnes Holloway** — his housekeeper of sixty years, a ghoul, with his shotgun. Starts **inactive** upstairs. Bring her in at the start of turn 2.",
+  "- **Brutus and Caesar** — his ghouled mastiffs, kennelled in the garden. Start **inactive**. Bring them in through the coal chute at the start of turn 3 if the fight is still going.",
+  "",
+  "## Special rules",
+  "- **Winning without killing.** Any of these ends the fight: **re-chain him** (two characters hold him with a Hold maneuver for a full turn while a third locks a shackle: Dexterity + Security or Crafts, difficulty 7); **stake him** (heart, difficulty 9, three damage successes); or **outlast the Dread** — after the radio is off, he rolls Self-Control (difficulty 7) at the end of each turn and comes back to himself on any success.",
+  "- **Mrs. Holloway chooses a side.** She arrives aiming at whoever is hurting him. If the coterie is plainly trying to restrain him, she lowers the gun and throws them the shackle keys instead (use ✎ to set her side to *pc*, or simply have her stop shooting). If anyone draws a blade or a gun on him, she fires.",
+  "- **The dogs** attack whoever is closest to Vandermeer. Mrs. Holloway can call them off (one action).",
+  "",
+  "## How it ends",
+  "- When he comes back to himself he is grey, shaking and grateful, and he will listen to anything — this is when they play him side B of the tape. If they hurt him badly, he still talks, but he remembers who did it.",
+  "",
+  "## Fewer players",
+  "Delete from the top of this list first:",
+  "- **5 players:** delete **Caesar**.",
+  "- **4 players:** also delete **Brutus**.",
+  "- **3 players:** Mrs. Holloway arrives already on the coterie's side (side *pc*), and Vandermeer starts with **2 bashing** — he has been fighting the chains for an hour."
+ ],
+ "pcs": true,
+ "weapons": [
+  {
+   "id": "w_torn_chain",
+   "name": "Torn Chain and Bracket",
+   "short": "Torn chain",
+   "kind": "melee",
+   "base": "str",
+   "mod": 2,
+   "type": "blunt",
+   "quirk": "reach · iron bracket",
+   "notes": "Six feet of chain with the wall bracket still on the end. Bashing unless it hits the head. Reach: anyone closing in with fists or a knife loses a die."
+  }
+ ],
+ "combatants": [
+  {
+   "custom": {
+    "name": "Cornelius Vandermeer",
+    "kind": "vampire",
+    "gen": "8th",
+    "humanity": "6",
+    "attrs": [
+     4,
+     3,
+     5,
+     4,
+     4,
+     3,
+     3,
+     4,
+     4
+    ],
+    "abil": "Alertness 2, Brawl 2, Dodge 2, Melee 1, Etiquette 4, Finance 4, Intimidation 4, Leadership 4, Politics 4",
+    "disc": "Dominate 4, Fortitude 4, Presence 3, Potence 1",
+    "wp": 8,
+    "bp": {
+     "max": 15,
+     "cur": 9
+    },
+    "weapons": [
+     "w_torn_chain"
+    ],
+    "notes": "Ventrue elder, Preston Whitlock's mentor. He knew Lysander Ashcroft at Court in the 1890s. IN FRENZY from the Dread: toggle the frenzy status (ignores wound penalties); no Dominate or Presence while it lasts. Do not destroy him — see the combat notes for how to end this. Comes back to himself on a Self-Control roll (difficulty 7) at the end of any turn once the radio next door is off."
+   }
+  },
+  {
+   "custom": {
+    "name": "Mrs. Agnes Holloway",
+    "kind": "ghoul",
+    "humanity": "7",
+    "attrs": [
+     2,
+     2,
+     2,
+     3,
+     3,
+     2,
+     4,
+     3,
+     3
+    ],
+    "abil": "Alertness 3, Dodge 1, Etiquette 3, Firearms 2, Medicine 2, Security 2",
+    "disc": "Potence 1",
+    "wp": 6,
+    "bp": 3,
+    "weapons": [
+     "shotgun"
+    ],
+    "notes": "Starts INACTIVE: bring her down the stair at the start of turn 2. Sixty years in his service; keeps the keys to the chains on her apron string. Shoots whoever is hurting him with a blade or gun; helps anyone plainly trying to restrain him (use ✎ to switch her to the coterie's side). Can call off the dogs with one action."
+   },
+   "inactive": true
+  },
+  {
+   "preset": "dog",
+   "name": "Brutus",
+   "disc": "Potence 1",
+   "bp": 10,
+   "inactive": true,
+   "notes": "Starts INACTIVE: comes through the coal chute at the start of turn 3. Ghouled mastiff (Potence 1). Attacks whoever is closest to Vandermeer. Mrs. Holloway can call him off."
+  },
+  {
+   "preset": "dog",
+   "name": "Caesar",
+   "disc": "Potence 1",
+   "bp": 10,
+   "inactive": true,
+   "notes": "Starts INACTIVE: comes through the coal chute with Brutus at the start of turn 3. Ghouled mastiff (Potence 1). Attacks whoever is closest to Vandermeer. Mrs. Holloway can call him off."
+  }
+ ]
+}
