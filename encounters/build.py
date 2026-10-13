@@ -1,6 +1,20 @@
 """Build encounters.html from the encounter definitions in this folder, and
 refresh the encounter links in campaign-bible.html.
 
+Each encounter gets two links:
+- the combat link (main): opens imagineVTT, which opens the scene for the fight and hands
+  the encounter to the combat tracker (see imagineVTT's docs/combat-link.md);
+- the tracker-only link: opens the encounter straight in the combat tracker, as before.
+
+Extra fields in an encounter file, for imagineVTT (the tracker never sees `scene`):
+- "scene": the imagineVTT scene name. Default: the encounter's name for set encounters
+  ("The Record Shop - Fire in the Dubbing Room"), "Random - <name>" for random ones.
+- "vtt" on a combatant: how its token looks, e.g.
+  {"border": "iron-chain", "type": "Brujah antitribu", "size": 1, "label": "both"}.
+
+Set IMAGINE_URL to test against a local imagineVTT, e.g.
+    IMAGINE_URL=http://localhost:5180/ python encounters/build.py
+
 Each *.json file here is one combat-tracker encounter payload (see the
 tracker README, "Encounter links"). Name them `set-NN-…` for fights tied to
 a location and `rnd-NN-…` for random encounters; they are listed in filename
@@ -10,9 +24,10 @@ Run after adding or editing an encounter:
 
     python encounters/build.py
 """
-import base64, html, json, pathlib, re
+import base64, html, json, os, pathlib, re
 
 TRACKER = 'https://endrejordal.github.io/vtm-combat-tracker/'
+IMAGINE = os.environ.get('IMAGINE_URL') or 'https://endrejordal.github.io/imagineVTT/'
 HERE = pathlib.Path(__file__).resolve().parent
 OUT = HERE.parent / 'encounters.html'
 BIBLE = HERE.parent / 'campaign-bible.html'
@@ -20,9 +35,34 @@ GROUPS = [('set-', 'Set encounters', 'Fights tied to a place in the chronicle. E
           ('rnd-', 'Random encounters', 'Fights that can be dropped in wherever the city needs to bite. Listed in the bible under §2.9.')]
 
 
+def b64(data):
+    raw = json.dumps(data, separators=(',', ':'), ensure_ascii=False).encode('utf-8')
+    return base64.urlsafe_b64encode(raw).decode().rstrip('=')
+
+
+def tracker_payload(payload):
+    """The encounter as the tracker takes it: without imagineVTT's scene name."""
+    return {k: v for k, v in payload.items() if k != 'scene'}
+
+
 def link(payload):
-    raw = json.dumps(payload, separators=(',', ':'), ensure_ascii=False).encode('utf-8')
-    return TRACKER + '#encounter=' + base64.urlsafe_b64encode(raw).decode().rstrip('=')
+    """Tracker-only link (as before imagineVTT)."""
+    return TRACKER + '#encounter=' + b64(tracker_payload(payload))
+
+
+def scene_name(stem, payload):
+    """The imagineVTT scene the fight belongs to: one scene per encounter."""
+    if payload.get('scene'):
+        return payload['scene']
+    name = payload.get('name') or stem
+    name = name.replace(' — ', ' - ').replace('—', '-')
+    return ('Random - ' + name) if stem.startswith('rnd-') else name
+
+
+def combat_link(stem, payload):
+    """The combat link: imagineVTT opens the scene and hands the encounter to the tracker."""
+    envelope = {'v': 1, 'scene': scene_name(stem, payload), 'encounter': tracker_payload(payload)}
+    return IMAGINE + '#combat=' + b64(envelope)
 
 
 def inline(s):
@@ -58,14 +98,17 @@ def card(path, p):
     sub = next((l.strip('*') for l in lines if l.startswith('*') and not l.startswith('**')), '')
     people = ' · '.join(html.escape(who(c)) for c in p.get('combatants', []))
     n = len(p.get('combatants', []))
-    url = link(p)
+    url = combat_link(path.stem, p)
+    tracker_url = link(p)
     return f'''<article class="enc" id="{path.stem}">
   <h2>{html.escape(p.get('name', path.stem))}</h2>
   {f'<p class="sub">{inline(sub)}</p>' if sub else ''}
   <p class="who"><span>{n} combatant{'s' if n != 1 else ''}{' + all saved players' if p.get('pcs') is True else ''}</span> {people}</p>
   <div class="acts">
-    <a class="btn primary" href="{html.escape(url)}" target="_blank" rel="noopener">▶ Open in tracker</a>
+    <a class="btn primary" href="{html.escape(url)}" target="_blank" rel="noopener" title="Opens the scene in imagineVTT, which starts the fight in the tracker">▶ Start in imagineVTT</a>
+    <a class="btn" href="{html.escape(tracker_url)}" target="_blank" rel="noopener">Tracker only</a>
     <button class="btn" type="button" data-copy="{html.escape(url)}">Copy link</button>
+    <span class="src">scene: {html.escape(scene_name(path.stem, p))}</span>
     <span class="src">encounters/{html.escape(path.name)}</span>
   </div>
   <details><summary>Combat notes</summary><div class="notes">{notes_html(notes)}</div></details>
@@ -112,7 +155,7 @@ code{{font-family:ui-monospace,Menlo,Consolas,monospace; font-size:.88em; backgr
 <body>
 <main>
 <h1>Encounters</h1>
-<p class="lede">Premade fights for the V:TM combat tracker, balanced for six players. Each one opens with its combat notes; the notes end with what to delete for a smaller table.</p>
+<p class="lede">Premade fights for the V:TM combat tracker, balanced for six players. Each one opens with its combat notes; the notes end with what to delete for a smaller table. <em>Start in imagineVTT</em> opens the fight's scene and the tracker together (close imagineVTT first); <em>Tracker only</em> opens just the tracker.</p>
 {cards}
 <p class="foot">Generated by <code>encounters/build.py</code> from the JSON files in <code>encounters/</code>. Edit those, then rebuild; don't edit this page.</p>
 </main>
@@ -147,7 +190,7 @@ def main():
     for f in files:
         p = json.loads(f.read_text(encoding='utf-8'))
         payloads[f.stem] = p
-        print(f'{f.name}: {len(p.get("combatants", []))} combatants, link {len(link(p))} chars')
+        print(f'{f.name}: {len(p.get("combatants", []))} combatants, combat link {len(combat_link(f.stem, p))} chars')
     for prefix, title, blurb in GROUPS:
         group = [f for f in files if f.name.startswith(prefix)]
         if group:
@@ -165,7 +208,7 @@ def main():
         def fix(m):
             stem = m.group(2)
             if stem not in payloads: missing.add(stem); return m.group(0)
-            return f'{m.group(1)}{html.escape(link(payloads[stem]))}{m.group(3)}'
+            return f'{m.group(1)}{html.escape(combat_link(stem, payloads[stem]))}{m.group(3)}'
         new = re.sub(r'(<a [^>]*data-enc="([^"]+)"[^>]*?href=")[^"]*(")', fix, text)
         n = len(re.findall(r'data-enc="', new))
         if new != text: BIBLE.write_text(new, encoding='utf-8', newline='')
