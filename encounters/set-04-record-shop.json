@@ -12,14 +12,15 @@
   "- **Everything burns.** Paper, vinyl, cardboard and thousands of cassettes.",
   "",
   "## The situation",
-  "The coterie and the Gravediggers come down the stair within a minute of each other, after the same thing: the cult's distribution network. Dot Malloy and two of the Faithful are in the back room. Nobody planned this. It turns into a three-way fight, and then the shop catches fire.",
+  "The coterie comes down the stair after the cult's distribution network and walks in on Dot Malloy and two of the Faithful in the dubbing room. **The Gravediggers have been watching the shop for two nights** from a doorway across the street (a coterie that saw Jinx at the Bowery dive may spot him: Perception + Alertness, difficulty 7). When Jinx sees the coterie go in, Hollis decides the Camarilla is not having it, and the pack comes down the stair behind them on turn 2. It becomes a three-way fight, and then the shop catches fire.",
   "- **The shoebox.** Dot's distribution list — every drop point in the city, the biggest under the Manhattan Bridge — is in a shoebox under the dubbing bench. Grabbing it is one action in the back room.",
   "- **The Gravediggers' goal** is a live Wakener to take back to North Brother Island. Once they have one, they leave by the stair.",
+  "- **The old man's box.** Under the dubbing bench, beside the shoebox: a carton of cassettes labelled in a copperplate hand (*Survey, 1898*; *Chambers, 1899*), all taped over for the cells but one, which plays the old voice from side B of the Cold Storage tape, reading measurements. Taking it is one action. Dot, asked: \"The old man brought his recordings in years ago, to be copied off old cylinders. Now he says tape over them.\" It burns with the shoebox at Spread 4.",
   "",
   "## Who's who",
-  "- **Hollis** — Brujah antitribu, the ductus. Blocks the stair while the others work.",
-  "- **Mister Bone** — Tzimisce. Wants a specimen, and the coterie is more interesting than the Wakeners.",
-  "- **Jinx** — Pander. Starts hidden; sets the fire.",
+  "- **Hollis** — Brujah antitribu, the ductus. Starts **inactive**: down the stair at the start of turn 2. Blocks the stair while the others work.",
+  "- **Mister Bone** — Tzimisce. Starts **inactive**, with Hollis. Wants a specimen, and the coterie is more interesting than the Wakeners.",
+  "- **Jinx** — Pander. Starts **inactive**, with Hollis, and hidden (Obfuscate). Sets the fire.",
   "- **Dot Malloy** — the shop's owner, a Believer ghoul. Thinks she is helping. Defends the masters with a baseball bat.",
   "- **Lou Fiorella and Nadia Brandt** — Caitiff Faithful guarding the dubbing room. They attack whoever is closest to Dot.",
   "- **The Fire** — a hazard, not a person. Starts **inactive**.",
@@ -32,7 +33,7 @@
   "- **Rötschreck.** The first time a character is in a burning area, roll Courage (difficulty 6): failure means they bolt for the stair, through anyone in the way.",
   "",
   "## How it ends",
-  "- The Gravediggers leave with a wounded Wakener, by car to the river. In the struggle, **Jinx drops a boat-hire receipt** (Marisol's piers) — the trail to North Brother Island.",
+  "- The Gravediggers leave with a wounded Wakener, by car across town to the West Side — to Marisol's pier, which a coterie that follows them will see. In the struggle, **Jinx drops a boat-hire receipt** from the same piers. Either way, the trail leads to the Hudson piers, and from there to North Brother Island.",
   "- The shop is lost either way. What the coterie saved — the shoebox, a master tape — is what they have.",
   "",
   "## Fewer players",
@@ -116,12 +117,13 @@
     "sawed_off",
     "machete"
    ],
-   "notes": "Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down.",
+   "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down.",
    "vtt": {
     "border": "iron-chain",
     "type": "Brujah antitribu, ductus",
     "label": "both"
-   }
+   },
+   "inactive": true
   },
   {
    "custom": {
@@ -152,13 +154,14 @@
      "bone_spurs",
      "w_bonecraft"
     ],
-    "notes": "Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
+    "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
    },
    "vtt": {
     "border": "steel-spikes",
     "type": "Tzimisce",
     "label": "both"
-   }
+   },
+   "inactive": true
   },
   {
    "custom": {
@@ -185,13 +188,14 @@
      "pistol_lt",
      "w_aerosol"
     ],
-    "notes": "Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
+    "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
    },
    "vtt": {
     "border": "black-iron",
     "type": "Pander",
     "label": "name"
-   }
+   },
+   "inactive": true
   },
   {
    "preset": "wk_discarded",

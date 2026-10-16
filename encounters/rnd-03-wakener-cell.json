@@ -13,7 +13,7 @@
   "- **Ways out:** the rubble stair (slow, one at a time), the tracks south toward City Hall, and a service door the cell keeps locked. Walt Pirelli has the key.",
   "",
   "## The situation",
-  "The coterie walks in on a rehearsal: Brother Calloway is teaching three Singers a new verse for the City Hall sermon. The rest of the cell is guarding them, and Eddie Quinn has been brought along to carry the tapes. The cell does not expect anyone.",
+  "The coterie walks in on a rehearsal: Brother Calloway is teaching three Singers a new verse for the next long night — the sermon everyone in the cult knows is coming. The rest of the cell is guarding them, and Wanda Pell has been brought along to carry the tapes. The cell does not expect anyone.",
   "- **The moment the coterie is seen, the Singers start singing.** Every Kindred in the station rolls for the **Dread** as at Cold Storage (§2.2 — V): Courage, difficulty 6. Success means frozen, failure means frenzy aimed at the Singers. Willpower buys one controlled action per turn.",
   "- The Singers keep singing until they are silenced. Each one who falls thins the Chant. When the last voice stops, the frozen are released.",
   "",
@@ -23,7 +23,7 @@
   "- **Dutch Kowalczyk** (Lieutenant) — Kevlar vest, heavy pistol, fire axe. The one the coterie should learn by name: if things go badly, the cell spends itself to get him out down the tracks.",
   "- **Ray Santangelo and Big Lorraine** (Caitiff Faithful) — the hunter's kit: stakes and road flares. They go for whoever is frozen first.",
   "- **Cosmo Duarte** (Caitiff Faithful) — tire iron and the cell's one gun, a .38.",
-  "- **Eddie Quinn** (Discarded Ghoul) — the Cold Storage manager. Terrified. Hides behind the mattresses and surrenders to the first person who offers him vitae or safety.",
+  "- **Wanda Pell** (Discarded Ghoul) — a Toreador's former dresser, carrying the tapes. Terrified. Hides behind the mattresses and surrenders to the first person who offers her vitae or safety.",
   "- **Walt Pirelli** (Driver and Handler) — sap and Glock. Has the service-door key and the cell's van keys.",
   "",
   "## Special rules",
@@ -33,7 +33,7 @@
   "",
   "## How it ends",
   "- **The cell does not win by killing.** It wins by keeping the Chant going and getting Dutch Kowalczyk out. Once the Singers are silenced and Dutch is gone or down, the rest fight to the end anyway.",
-  "- **What the coterie can find:** a box of tapes labelled by date, Walt's van keys (a box van on Leonard Street with cots in the back), and Eddie Quinn, who will talk.",
+  "- **What the coterie can find:** a box of tapes labelled by date, Walt's van keys (a box van on Leonard Street with cots in the back), and Wanda Pell, who will talk: the next sermon is \"the long one, at the big station by City Hall\", and everyone is waiting for the word. That is **where**, if the coterie does not have it yet.",
   "",
   "## Fewer players",
   "Delete from the top of this list first:",
@@ -95,7 +95,8 @@
   },
   {
    "preset": "wk_discarded",
-   "name": "Eddie Quinn"
+   "name": "Wanda Pell",
+   "notes": "A Toreador's former dresser, discarded and collected by the cult; carries the cell's tapes. Hides behind the mattresses and surrenders to the first person who offers vitae or safety. Knows the next sermon is at the big station by City Hall."
   },
   {
    "preset": "wk_driver",

@@ -12,22 +12,26 @@
   "- **Dawn is coming.** The meat trucks start arriving at **turn 6**: twenty mortal workers and their headlights. After that, everything anyone does is seen.",
   "",
   "## The situation",
-  "With Cold Storage closed, the coterie came to the piers to feed — and fed without paying Marisol's cut. Her crew boxes them in on the pier. She would rather be paid than fight, and she would rather fight than look weak in a summer when the Court cannot protect anyone.",
-  "- **Talking first.** Marisol opens with a price: double the usual cut, every week, for the rest of the summer. Paying ends it. So does winning her respect.",
-  "- **The duel.** Marisol offers it herself if the talk goes badly: one of the coterie against her, bare-handed or claws, first to take three health levels loses. Her crew stands back and honours the result. Refusing the duel starts the fight.",
+  "The coterie comes to the piers asking about a boat — following Russo's notebook from Bellevue (a boat leaves Marisol's pier every night with people tied in the bottom) or the boat-hire receipt Jinx dropped at the record shop. And once they know about North Brother Island, they need one themselves: it can only be reached by water, and Marisol's people rent boats at night, cash, no questions.",
+  "**What Marisol is hiding:** she has been ferrying the Gravediggers. Hollis paid cash for her boats, then offered more — a place in Sabbat New York when the Court falls. She has taken the pack across to North Brother every night this week. Neonates walking onto her pier with the Sheriff's name, asking who rented her boats, look like the Court finally catching on. For a Camarilla Gangrel helping the Sabbat, that is Final Death. She has to decide whether they leave.",
+  "- **It need not be a fight.** If the coterie only wants a boat, she rents them one at a steep price and lies about the other customers (Manipulation + Subterfuge 7 dice; a coterie that catches the lie with Perception + Empathy has her cornered).",
+  "- **It becomes a fight** when they press about the Sabbat, mention reporting to the Sheriff, or catch her lying. Her crew has already drifted round behind them.",
+  "- **The duel.** Before blood is spilled, Marisol offers Gangrel terms: one of the coterie against her, bare-handed or claws, first to take three health levels loses. If she wins, they forget the questions and take the boat home. If they win, they get the boat and the truth. Her crew honours the result. Refusing the duel starts the fight.",
   "",
   "## Who's who",
   "- **Marisol** — Gangrel, pier boss. Grows Feral Claws (1 blood, one turn) and fights like a dockside animal. Calls her dogs with Animalism on turn 2.",
   "- **Teo, Big Nunzio and Rafferty** — her ghoul dockhands, with cargo hooks. Extras: they go down fast, and they try to hook people off the pier.",
   "- **Two harbour dogs** — strays she feeds. Start **inactive**; bring them in at the start of turn 2 (her Animalism call).",
-  "- **Detective Frank Russo** — NYPD Homicide, working the Cold Storage case and tailing the coterie. Starts **inactive**. See below.",
+  "- **Detective Frank Russo** — NYPD Homicide, working the Cold Storage case and staking out this pier. Starts **inactive**. See below.",
   "",
   "## Special rules",
-  "- **Russo joins at the first gunshot, or at the start of turn 4.** He is a mortal with a revolver and a radio. He shoots at whoever looks like the attacker; with Marisol's ghouls swinging hooks, that is usually them — but he is now a witness to everything. If he sees claws, feeding, or someone taking a bullet and getting up, it is a Masquerade breach the coterie inherits. He calls for backup on the turn he arrives; two patrol cars come at turn 8.",
-  "- **Marisol's pride.** She never fights to the death: at half health she backs off, names a smaller price, and calls it even.",
+  "- **Russo joins at the first gunshot, or at the start of turn 4.** He has been staking out the pier over the fisherman's statement, from a car by the fence. He is a mortal with a revolver and a radio. He shoots at whoever looks like the attacker; with Marisol's ghouls swinging hooks, that is usually them — but he is now a witness to everything. If he sees claws, feeding, or someone taking a bullet and getting up, it is a Masquerade breach the coterie inherits. He calls for backup on the turn he arrives; two patrol cars come at turn 8.",
+  "- **Marisol's pride.** She never fights to the death: at half health she backs off and talks — see How it ends.",
   "",
   "## How it ends",
-  "- Paid, dueled or beaten, Marisol becomes the coterie's boat when they need one to reach North Brother Island — at a price that depends on how this went.",
+  "- **Duel lost, or Marisol at half health:** she gives it all up — the pack's crossings to North Brother Island, the old Tuberculosis Pavilion they haunt, the hours they come and go — and begs the coterie to keep it from the Sheriff. That secret is leverage the coterie keeps for the rest of the chapter.",
+  "- **Duel won by Marisol:** she rents them a boat home and nothing else. The island will have to be found another way (Benedetta's invitation, or following the pack's boat from the record shop).",
+  "- **Either way,** the boat that takes the coterie to North Brother leaves from this pier.",
   "",
   "## Fewer players",
   "Delete from the top of this list first:",
@@ -76,7 +80,7 @@
      "feral_claws",
      "knife"
     ],
-    "notes": "Gangrel, boss of the West Side piers. FERAL CLAWS (Protean 2): 1 blood, one turn to grow; Str+1 aggravated. ANIMALISM: calls the harbour dogs on turn 2. Offers a duel before a brawl. Backs off at half health and names a smaller price. Rents boats — the coterie's way to North Brother Island."
+    "notes": "Gangrel, boss of the West Side piers. Secretly ferrying the Gravediggers to North Brother Island for Hollis's cash and a promised place in Sabbat New York. FERAL CLAWS (Protean 2): 1 blood, one turn to grow; Str+1 aggravated. ANIMALISM: calls the harbour dogs on turn 2. Offers a Gangrel duel before a brawl (first to three health levels). At half health or a lost duel she talks: the pack's crossings, the island, the hours — and begs them to keep it from the Sheriff."
    }
   },
   {
@@ -151,7 +155,7 @@
     "weapons": [
      "revolver_lt"
     ],
-    "notes": "Starts INACTIVE: joins at the first gunshot or the start of turn 4. NYPD Homicide, working the Cold Storage case and tailing the coterie. Shoots whoever looks like the attacker. Everything he sees is a Masquerade problem. Radios for backup on arrival: two patrol cars at turn 8."
+    "notes": "Starts INACTIVE: joins at the first gunshot or the start of turn 4. NYPD Homicide, working the Cold Storage case and staking out this pier over a night fisherman's statement about a boat full of bound people. Shoots whoever looks like the attacker. Everything he sees is a Masquerade problem. Radios for backup on arrival: two patrol cars at turn 8."
    },
    "inactive": true
   }
