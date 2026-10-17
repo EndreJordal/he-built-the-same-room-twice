@@ -1,24 +1,28 @@
 {
  "v": 1,
- "name": "The Record Shop — Fire in the Dubbing Room",
+ "name": "Cherry Bomb Records — Fire in the Dubbing Room",
+ "scene": "The Record Shop - Fire in the Dubbing Room",
  "notes": [
-  "# The Record Shop — Fire in the Dubbing Room",
+  "# Cherry Bomb Records — Fire in the Dubbing Room",
   "*Chapter One, §2.4 location 12. Balanced for six neonates.*",
   "",
   "## The place",
-  "A basement shop on St. Marks Place. Front room: crates of vinyl, punk flyers, a counter. Back room: the dubbing room — dozens of high-speed cassette decks running at once, boxes of blank tapes stacked to the ceiling, and master tapes labelled by date. One stair up to the street; a fire door to the alley, chained shut from inside (Dot has the key).",
-  "- **Two rooms, one doorway** between them. Only two people fit through it in a turn.",
-  "- **The decks are playing the Chant** at low volume the whole time — every Kindred in the back room is at +1 difficulty to everything until someone kills the power (the breaker is behind the counter; one action).",
-  "- **Everything burns.** Paper, vinyl, cardboard and thousands of cassettes.",
+  "**Cherry Bomb Records**, Dot Malloy's shop on the ground floor of an old brick warehouse at 81 Cherry Street, in the shadow of the Manhattan Bridge — the industrial edge of the Lower East Side, where the bridge traffic drums overhead all night. About 43 × 24 yards, all on one floor.",
+  "- **The shop.** A narrow storefront at street level: crates of vinyl, punk flyers, the counter. The **breaker** and the **fire extinguisher** are behind the counter.",
+  "- **The door.** One door from the shop into the warehouse behind it — the choke point. Only two people get through it in a turn.",
+  "- **The warehouse.** Far more space than Dot's operation needs. The **dubbing corner** — a bench of high-speed cassette decks playing the Chant, towers of blank-tape boxes, master tapes labelled by date, and under the bench the shoebox and the old man's box — is one corner of a huge, half-empty floor: pallets of unsold records and dead stock, an old printing press, a forklift, and a **mezzanine office** up a steel stair.",
+  "- **The loading dock.** A roll-up door to the alley, chained shut from inside. Dot has the key.",
+  "- **The Chant.** The decks play it at low volume the whole time: every Kindred **within earshot of the dubbing corner** is at +1 difficulty to everything until someone kills the power (the breaker behind the counter; one action).",
+  "- **What burns.** The dubbing corner and the stock — paper, vinyl, cardboard and thousands of cassettes. Open concrete floor away from the stock burns slowly or not at all.",
   "",
   "## The situation",
-  "The coterie comes down the stair after the cult's distribution network and walks in on Dot Malloy and two of the Faithful in the dubbing room. **The Gravediggers have been watching the shop for two nights** from a doorway across the street (a coterie that saw Jinx at the Bowery dive may spot him: Perception + Alertness, difficulty 7). When Jinx sees the coterie go in, Hollis decides the Camarilla is not having it, and the pack comes down the stair behind them on turn 2. It becomes a three-way fight, and then the shop catches fire.",
-  "- **The shoebox.** Dot's distribution list — every drop point in the city, the biggest under the Manhattan Bridge — is in a shoebox under the dubbing bench. Grabbing it is one action in the back room.",
-  "- **The Gravediggers' goal** is a live Wakener to take back to North Brother Island. Once they have one, they leave by the stair.",
+  "The coterie comes in through the shop after the cult's distribution network and walks in on Dot Malloy and two of the Faithful in the dubbing corner. **The Gravediggers have been watching the shop for two nights** from a doorway across the street (a coterie that saw Jinx at the Bowery dive may spot him: Perception + Alertness, difficulty 7). When Jinx sees the coterie go in, Hollis decides the Camarilla is not having it, and the pack comes in behind them on turn 2. It becomes a three-way fight, and then the warehouse catches fire.",
+  "- **The shoebox.** Dot's distribution list — every drop point in the city, the biggest under the Manhattan Bridge, a few minutes' walk away — is in a shoebox under the dubbing bench. Grabbing it is one action at the bench.",
+  "- **The Gravediggers' goal** is a live Wakener to take back to North Brother Island. Once they have one, they leave the way they came, or by the loading dock if it is open.",
   "- **The old man's box.** Under the dubbing bench, beside the shoebox: a carton of cassettes labelled in a copperplate hand (*Survey, 1898*; *Chambers, 1899*), all taped over for the cells but one, which plays the old voice from side B of the Cold Storage tape, reading measurements. Taking it is one action. Dot, asked: \"The old man brought his recordings in years ago, to be copied off old cylinders. Now he says tape over them.\" It burns with the shoebox at Spread 4.",
   "",
   "## Who's who",
-  "- **Hollis** — Brujah antitribu, the ductus. Starts **inactive**: down the stair at the start of turn 2. Blocks the stair while the others work.",
+  "- **Hollis** — Brujah antitribu, the ductus. Starts **inactive**: in through the shop door at the start of turn 2 — or through the loading dock if it is open, cutting off that escape. Blocks the door while the others work.",
   "- **Mister Bone** — Tzimisce. Starts **inactive**, with Hollis. Wants a specimen, and the coterie is more interesting than the Wakeners.",
   "- **Jinx** — Pander. Starts **inactive**, with Hollis, and hidden (Obfuscate). Sets the fire.",
   "- **Dot Malloy** — the shop's owner, a Believer ghoul. Thinks she is helping. Defends the masters with a baseball bat.",
@@ -26,15 +30,17 @@
   "- **The Fire** — a hazard, not a person. Starts **inactive**.",
   "",
   "## Special rules",
-  "- **The Fire starts at the end of turn 2** (Jinx's aerosol torch into a box of blank tapes, or a knocked-over lamp). Bring it in with ▶; it acts **last** every turn whatever its initiative says.",
-  "- **Spread.** The Fire's extra pool is **Spread**. At its turn, add 1. **1–2:** the back room burns. **3:** the doorway burns and smoke fills the front (+1 difficulty to everything, everywhere). **4:** the shoebox is gone. **5:** both rooms burn (two levels a turn). **6:** the ceiling comes down — anyone still inside takes 4 dice bashing and must get out next turn.",
+  "- **The pack comes in on turn 2**, through the shop door, where Hollis plants himself in the doorway. If someone has opened the loading dock, they come in that way instead and cut off the escape.",
+  "- **The Fire starts at the end of turn 2** (Jinx's aerosol torch into a tower of blank tapes, or a knocked-over lamp). Bring it in with ▶; it acts **last** every turn whatever its initiative says.",
+  "- **Spread.** The Fire's extra pool is **Spread**. At its turn, add 1. **1–2:** the dubbing corner burns. **3:** the fire reaches the stock, and smoke fills the roof space: +1 difficulty to everything, everywhere — +2 for anyone on the mezzanine. **4:** the shoebox and the old man's box are gone. **5:** the stock and the shop door burn (two levels a turn in burning areas). **6:** the roof comes down over the dubbing corner and the stock — 4 dice bashing to anyone there, and they must get out next turn.",
+  "- **Safe lanes.** Open floor away from the stock burns slowly or not at all. The fight can go on there while the corner burns.",
   "- **Burning.** At the Fire's turn, use its *Burning Room* weapon on everyone standing in a burning area (1 aggravated, Fortitude soak at difficulty 5).",
-  "- **Putting it out.** There is an extinguisher behind the counter: one action, Dexterity + Athletics (difficulty 6), each success removes 1 Spread. It only buys time.",
-  "- **Rötschreck.** The first time a character is in a burning area, roll Courage (difficulty 6): failure means they bolt for the stair, through anyone in the way.",
+  "- **Putting it out.** The extinguisher is behind the counter: one action, Dexterity + Athletics (difficulty 6), each success removes 1 Spread. It only buys time.",
+  "- **Rötschreck.** The first time a character is in a burning area, roll Courage (difficulty 6): failure means they bolt for the nearest exit — the shop door or the loading dock — through anyone in the way.",
   "",
   "## How it ends",
   "- The Gravediggers leave with a wounded Wakener, by car across town to the West Side — to Marisol's pier, which a coterie that follows them will see. In the struggle, **Jinx drops a boat-hire receipt** from the same piers. Either way, the trail leads to the Hudson piers, and from there to North Brother Island.",
-  "- The shop is lost either way. What the coterie saved — the shoebox, a master tape — is what they have.",
+  "- The shop and the warehouse are lost either way. What the coterie saved — the shoebox, a master tape, the old man's box — is what they have.",
   "",
   "## Fewer players",
   "Delete from the top of this list first:",
@@ -92,7 +98,7 @@
    "type": "fire",
    "fireLevels": 1,
    "heat": 5,
-   "quirk": "everyone in the burning area",
+   "quirk": "everyone in a burning area",
    "notes": "Not an attack. At the Fire's turn, use this on everyone standing in a burning area: 1 automatic aggravated level, Fortitude soak at difficulty 5. Two levels once Spread reaches 5."
   }
  ],
@@ -117,7 +123,7 @@
     "sawed_off",
     "machete"
    ],
-   "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down.",
+   "notes": "Starts INACTIVE: the pack comes in through the shop door behind the coterie at the start of turn 2 (or through the loading dock, if it is open), after watching the shop for two nights. Brujah antitribu, the Gravediggers' ductus. Wants New York more than Gehenna. Brutal and practical: he cuts his losses once two of his side are down.",
    "vtt": {
     "border": "iron-chain",
     "type": "Brujah antitribu, ductus",
@@ -154,7 +160,7 @@
      "bone_spurs",
      "w_bonecraft"
     ],
-    "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
+    "notes": "Starts INACTIVE: the pack comes in through the shop door behind the coterie at the start of turn 2 (or through the loading dock, if it is open), after watching the shop for two nights. Tzimisce of the Gravediggers. HORRID FORM (Vicissitude 4, 2 blood, one turn): +3 Strength, Dexterity and Stamina, Social 0, +1 brawl damage — use the Details blood boosts. FLESHCRAFT (Vicissitude 2): after a successful grapple, Dexterity + Body Crafts (difficulty 5): each success lowers the victim's Appearance by one. Collects interesting specimens rather than killing them."
    },
    "vtt": {
     "border": "steel-spikes",
@@ -188,7 +194,7 @@
      "pistol_lt",
      "w_aerosol"
     ],
-    "notes": "Starts INACTIVE: the pack comes down the stair behind the coterie at the start of turn 2, after watching the shop for two nights. Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
+    "notes": "Starts INACTIVE: the pack comes in through the shop door behind the coterie at the start of turn 2 (or through the loading dock, if it is open), after watching the shop for two nights. Pander, the pack's eyes. Starts hidden (Obfuscate 2). Could be turned or spared: offered a way out by someone he recognises (the Bowery dive), Manipulation + Empathy (difficulty 7) and he lowers the gun. Burns things when scared, and he is always scared."
    },
    "vtt": {
     "border": "black-iron",
@@ -207,7 +213,7 @@
     "cha": 3,
     "man": 3
    },
-   "notes": "Owns the shop and runs the dubbing room; a Believer who thinks she is helping. Keeps the distribution list in a shoebox under the dubbing bench, and the fire-door key on a shoelace round her neck. Defends the master tapes before herself.",
+   "notes": "Owns the shop and runs the dubbing room; a Believer who thinks she is helping. Keeps the distribution list in a shoebox under the dubbing bench, and the loading-dock key on a shoelace round her neck. Defends the master tapes before herself.",
    "vtt": {
     "border": "gold",
     "type": "Wakener prophet",
@@ -256,7 +262,7 @@
     "weapons": [
      "w_shop_fire"
     ],
-    "notes": "A HAZARD, not a combatant: nobody can attack it. Starts INACTIVE: bring it in at the end of turn 2. Acts LAST every turn whatever its initiative says. At its turn: +1 Spread, then use Burning Room on everyone in a burning area. SPREAD 1–2 back room burns · 3 doorway burns, smoke everywhere (+1 difficulty) · 4 shoebox gone · 5 both rooms burn, 2 levels a turn · 6 ceiling collapses (4 dice bashing to everyone inside). The extinguisher removes 1 Spread per success (Dexterity + Athletics, difficulty 6)."
+    "notes": "A HAZARD, not a combatant: nobody can attack it. Starts INACTIVE: bring it in at the end of turn 2. Acts LAST every turn whatever its initiative says. At its turn: +1 Spread, then use Burning Room on everyone in a burning area. SPREAD 1–2 the dubbing corner burns · 3 the stock catches, smoke in the roof space (+1 difficulty everywhere, +2 on the mezzanine) · 4 the shoebox and the old man's box are gone · 5 the stock and the shop door burn, 2 levels a turn · 6 the roof comes down over the dubbing corner and the stock (4 dice bashing; get out next turn). Open floor away from the stock burns slowly or not at all. The extinguisher behind the counter removes 1 Spread per success (Dexterity + Athletics, difficulty 6)."
    },
    "inactive": true
   }
