@@ -21,7 +21,7 @@
   "- **Officers Pruitt and Lang** — start **inactive**: they arrive at the start of turn 5 if the fight is still going.",
   "",
   "## Special rules",
-  "- **In frenzy** Julian ignores wound penalties (toggle the frenzy status). He comes back to himself only when pinned for a full turn (a Hold), staked, or brought to Incapacitated.",
+  "- **In frenzy** Julian ignores wound penalties (the frenzy status is already set). He comes back to himself only when pinned for a full turn (a Hold), staked, or brought to Incapacitated.",
   "- **Mr. Grady can be talked down** (Charisma + Empathy, difficulty 6: 'we're trying to save him'), and then helps hold his master.",
   "- **The cops** see whatever is happening when they walk in. Plan for that.",
   "",
@@ -61,8 +61,11 @@
      "cur": 10
     },
     "weapons": [],
-    "notes": "Ancilla of the King's clan, Bound and raving (§1.4). IN FRENZY: toggle the frenzy status. Comes back to himself only when held for a full turn, staked, or Incapacitated. Taken alive, he is a single-clan case. Goes for whoever is bleeding — mortals included. Disciplines: set at the clan's three once it is chosen if you like; these are generic."
-   }
+    "notes": "Ancilla of the King's clan, Bound and raving (§1.4). IN FRENZY: the frenzy status is already set. Comes back to himself only when held for a full turn, staked, or Incapacitated. Taken alive, he is a single-clan case. Goes for whoever is bleeding — mortals included. Disciplines: set at the clan's three once it is chosen if you like; these are generic."
+   },
+   "status": [
+    "frenzy"
+   ]
   },
   {
    "preset": "bodyguard",

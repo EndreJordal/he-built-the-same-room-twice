@@ -17,7 +17,7 @@
   "- **The radio.** While it plays, every Kindred in the cellar is at +1 difficulty to everything. Someone can run next door (one turn out, one turn to deal with the sleepy neighbour, one turn back) and shut it off. That is a Masquerade problem of its own.",
   "",
   "## Who's who",
-  "- **Cornelius Vandermeer** — Ventrue elder, in frenzy (toggle the frenzy status: he ignores wound penalties). Cannot use Dominate or Presence while frenzied. Fortitude 4 and Stamina 5: beating him down with fists will take all night.",
+  "- **Cornelius Vandermeer** — Ventrue elder, in frenzy (he starts with the frenzy status set: he ignores wound penalties). Cannot use Dominate or Presence while frenzied. Fortitude 4 and Stamina 5: beating him down with fists will take all night.",
   "- **Mrs. Agnes Holloway** — his housekeeper of sixty years, a ghoul, with his shotgun. Starts **inactive** upstairs. Bring her in at the start of turn 2.",
   "- **Brutus and Caesar** — his ghouled mastiffs, kennelled in the garden. Start **inactive**. Bring them in through the coal chute at the start of turn 3 if the fight is still going.",
   "",
@@ -77,8 +77,11 @@
     "weapons": [
      "w_torn_chain"
     ],
-    "notes": "Ventrue elder, Preston Whitlock's mentor. He knew Lysander Ashcroft at Court in the 1890s. IN FRENZY from the Dread: toggle the frenzy status (ignores wound penalties); no Dominate or Presence while it lasts. Do not destroy him — see the combat notes for how to end this. Comes back to himself on a Self-Control roll (difficulty 7) at the end of any turn once the radio next door is off."
-   }
+    "notes": "Ventrue elder, Preston Whitlock's mentor. He knew Lysander Ashcroft at Court in the 1890s. IN FRENZY from the Dread: the frenzy status is already set (ignores wound penalties); no Dominate or Presence while it lasts. Do not destroy him — see the combat notes for how to end this. Comes back to himself on a Self-Control roll (difficulty 7) at the end of any turn once the radio next door is off."
+   },
+   "status": [
+    "frenzy"
+   ]
   },
   {
    "custom": {

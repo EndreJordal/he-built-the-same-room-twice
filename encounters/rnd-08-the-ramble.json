@@ -20,7 +20,7 @@
   "- **The wolf** — an adolescent werewolf. Starts **inactive**.",
   "",
   "## Special rules",
-  "- **The wolf arrives** at the start of **turn 3**, in battle form (toggle it: Physical Attributes doubled). It attacks the **Wakeners** first — it is hunting the sound — and then whoever is still fighting.",
+  "- **The wolf arrives** at the start of **turn 3**, in battle form (already set when it joins: Physical Attributes doubled). It attacks the **Wakeners** first — it is hunting the sound — and then whoever is still fighting.",
   "- **It is not here to die.** It leaves when it has taken **two aggravated** levels or at the end of turn 5, back into the trees. Nothing the coterie does will follow it.",
   "- **Lupines** regenerate a level a turn, cannot soak silver, and act several times a turn (the tracker handles this). One neonate against it alone is a dead neonate. Make that clear by turn 4.",
   "- **Afterwards:** claw marks on a tree, a Wakener torn open, and a lesson the Camarilla teaches every neonate: the city belongs to the Kindred only as far as the streetlights reach.",
@@ -70,7 +70,10 @@
    "preset": "were_young",
    "name": "The Wolf in the Ramble",
    "inactive": true,
-   "notes": "Starts INACTIVE: arrives at the start of turn 3 in battle form (toggle it). Hunting the Chant: attacks the Wakeners first. Leaves after two aggravated levels or at the end of turn 5. Regenerates a level a turn; silver can't be soaked."
+   "notes": "Starts INACTIVE: arrives at the start of turn 3 in battle form (already set). Hunting the Chant: attacks the Wakeners first. Leaves after two aggravated levels or at the end of turn 5. Regenerates a level a turn; silver can't be soaked.",
+   "status": [
+    "battleForm"
+   ]
   }
  ]
 }

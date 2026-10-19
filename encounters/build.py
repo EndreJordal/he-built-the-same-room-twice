@@ -11,6 +11,9 @@ Extra fields in an encounter file, for imagineVTT (the tracker never sees `scene
   ("The Record Shop - Fire in the Dubbing Room"), "Random - <name>" for random ones.
 - "vtt" on a combatant: how its token looks, e.g.
   {"border": "iron-chain", "type": "Brujah antitribu", "size": 1, "label": "both"}.
+- "status" on a combatant: tracker conditions it starts under, e.g. ["frenzy"], ["staked"],
+  ["prone"], ["immobilized"], ["battleForm"]; "secret": the ones the players should not see.
+  Both pass through to the tracker unchanged, like every other combatant field.
 
 Set IMAGINE_URL to test against a local imagineVTT, e.g.
     IMAGINE_URL=http://localhost:5180/ python encounters/build.py

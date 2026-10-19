@@ -12,22 +12,24 @@
   "## The situation",
   "The Society of Leopold has found a weapon this summer and does not understand it: the Chant. A snatch team has been following the coterie for a week. Tonight they spring it: the boombox goes on, the nets come out, and they try to take one neonate alive for the Inquisitor General's questions.",
   "- **They want a prisoner**, not a body. They target whichever character is frozen, alone, or weakest.",
+  "- **They already have one.** In the back of the van, staked: **Ruben Castillo**, a Caitiff neonate from the Rack, taken an hour ago. The van is the second objective: pull the stake (one action at the open doors) before the Society leaves with him.",
   "- **The hunters are feeding the harvest.** Every Kindred they torment with the Chant is a step closer to being Bound. They do not know. If the coterie has worked it out, saying so to Sister Mathilde is a real argument.",
   "",
   "## Who's who",
   "- **Sister Mathilde** — Inquisitor with **True Faith 2**. Leads with prayer, not violence.",
   "- **Brother Kurt** — Inquisitor, no Faith, a propane torch and no qualms. Bauer's kind of man.",
   "- **Two lay brothers** — hired muscle with nets and stakes (Extras).",
-  "- **Brother Thomas** — the 'volunteer' from Mama Celestine's soup kitchen. Starts **inactive** in the van; he runs the boombox from there.",
+  "- **Brother Thomas** — the 'volunteer' from Mama Celestine's soup kitchen. Starts **inactive** in the van; he runs the boombox from there, and drives away with Ruben if anyone reaches the van doors before the stake is out.",
   "",
   "## Special rules",
   "- **The boombox.** Brother Thomas starts it on turn 1 (it is his weapon). Every Kindred in the alley rolls for the Dread at the start of each turn it plays — as at Cold Storage. Smash it, or kill the power.",
   "- **True Faith 2 (Sister Mathilde).** Brandishing her rosary: roll her Faith against a vampire's Willpower; each success forces the vampire one step back, and on no successes it cannot advance. Pressed against flesh, each success is a level of aggravated damage. With Faith 2 she can also spend Willpower to resist Dominate for a few turns. Auspex shows her silver halo.",
   "- **The net** entangles instead of hurting (see its weapon notes).",
-  "- **The Society retreats** when Sister Mathilde is down or the boombox is smashed and two of them are hurt. The van does not wait for stragglers.",
+  "- **The Society retreats** when Sister Mathilde is down or the boombox is smashed and two of them are hurt. The van does not wait for stragglers — and it takes Ruben unless someone has already pulled him out.",
   "",
   "## How it ends",
   "- A captured lay brother knows the van's garage in Red Hook and the name *Father Reyes* — the Bellevue chaplain.",
+  "- Ruben, if freed, has the Society's question: \"Which of you does it call?\" — they are looking for the same pattern the coterie is (§1.4).",
   "",
   "## Fewer players",
   "Delete from the top of this list first:",
@@ -116,6 +118,24 @@
    ],
    "inactive": true,
    "notes": "Starts INACTIVE in the van: bring him in on turn 1 only to run the boombox (his weapon). The soup-kitchen volunteer who asks too many questions. Not a fighter: he drives away if anyone reaches the van."
+  },
+  {
+   "preset": "neonate",
+   "name": "Ruben Castillo",
+   "status": [
+    "staked"
+   ],
+   "weapons": [],
+   "dmg": {
+    "a": 1,
+    "l": 2,
+    "b": 0
+   },
+   "bp": {
+    "max": 10,
+    "cur": 1
+   },
+   "notes": "The Society's first catch tonight: a Caitiff neonate from the Rack, STAKED in the back of the van since an hour ago. Pulling the stake is one action at the open van doors; then he can act, weakly (1 blood). He will fight for whoever freed him (use ✎ to put him on the coterie's side). Questioned afterwards: the Inquisitors played him the Chant for an hour and asked him one question, over and over — \"Which of you does it call?\""
   }
  ]
 }

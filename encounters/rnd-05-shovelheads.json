@@ -19,7 +19,7 @@
   "- **Two more** start **inactive**, still digging.",
   "",
   "## Special rules",
-  "- **The diggers** surface at the start of turns 2 and 3 (one each).",
+  "- **The diggers** surface at the start of turns 2 and 3 (one each), **prone** — still half in the ground. Each spends its first action getting up, which is a real window for anyone standing over the grave.",
   "- **Fire** sends them into Rötschreck instantly: any shovelhead facing a flame flees over the wall.",
   "- **Mercy.** A shovelhead that is pinned and fed (a vampire lets it drink a blood point from them) stops struggling and can be questioned — badly. It remembers a man with a priest's collar and a thick Brooklyn accent, and a pack name: *Gravediggers*.",
   "",
@@ -67,14 +67,20 @@
    "name": "Digger Five",
    "weapons": [],
    "inactive": true,
-   "notes": "Starts INACTIVE: surfaces at the start of turn 2. As Mud."
+   "notes": "Starts INACTIVE: surfaces at the start of turn 2, still prone, half out of its grave (it spends its first action getting up). As Mud.",
+   "status": [
+    "prone"
+   ]
   },
   {
    "preset": "shovelhead",
    "name": "Digger Six",
    "weapons": [],
    "inactive": true,
-   "notes": "Starts INACTIVE: surfaces at the start of turn 3. As Mud."
+   "notes": "Starts INACTIVE: surfaces at the start of turn 3, still prone, half out of its grave (it spends its first action getting up). As Mud.",
+   "status": [
+    "prone"
+   ]
   }
  ]
 }

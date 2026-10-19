@@ -14,7 +14,7 @@
   "",
   "## The situation",
   "The coterie arrives — by Marisol's boat, or following the pack's — in the middle of something. The Gravediggers have spent the night interrogating Wakeners, and Mister Bone has been *making* things. Two of his guards are fresh from a fight with a Wakener ghoul who got loose, and the island's dead have started waking in the old wards. Nobody here is at full strength, which is the only reason the coterie can win this.",
-  "- **Tobias**, the half-reshaped Singer the coterie needs (he knows **where** the faithful gather), is strapped to a bedframe at the far end, under the lamps. He is not a combatant. Anyone who reaches him and asks gets his whisper.",
+  "- **Tobias**, the half-reshaped Singer the coterie needs (he knows **where** the faithful gather), is strapped to a bedframe at the far end, under the lamps. He is on the map as a token (**immobilized**), but he is not a combatant: he does not act, and nobody should target him. Anyone who reaches him and asks gets his whisper.",
   "- If the coterie already has a **truce** with the Gravediggers (Coney Island), this is not a fight at first: Benedetta's invitation stands, and Mister Bone shows them his work. It turns into one the moment someone objects to what is on the tables — or when the Quarantine Dead arrive.",
   "",
   "## Who's who",
@@ -363,6 +363,20 @@
     "w_fling_ward"
    ],
    "abil": "Alertness 3, Athletics 3, Brawl 4, Dodge 4, Intimidation 3, Melee 3, Occult 2, Stealth 2, Streetwise 3, Subterfuge 3"
+  },
+  {
+   "preset": "wk_singer",
+   "name": "Tobias",
+   "status": [
+    "immobilized"
+   ],
+   "weapons": [],
+   "dmg": {
+    "a": 0,
+    "l": 4,
+    "b": 0
+   },
+   "notes": "NOT A COMBATANT — on the map so the table can see him. A half-reshaped Wakener Singer, strapped to a bedframe under the lamps at the far end (immobilized; cutting the straps is one action). He does not fight, and the Quarantine Dead leave him alone: he is already half theirs. Anyone who reaches him and promises to end this gets his whisper: the abandoned station near City Hall — WHERE."
   }
  ]
 }
